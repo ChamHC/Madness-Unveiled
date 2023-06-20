@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.546875,
+    "snap": true,
+    "zoomFactor": 0.6897782140104506,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,15 +26,31 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "cf0871e9-7f50-406f-a0fe-b4a7000bdf68",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Chara",
-      "persistentUuid": "227719b7-c9b5-4893-9bca-023c3d931b11",
+      "name": "Player",
+      "persistentUuid": "14fc6d2c-5a40-47d1-a193-7c1ccb986b89",
       "width": 0,
-      "x": 626,
-      "y": 355,
-      "zOrder": 1,
+      "x": 560,
+      "y": 380,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -43,13 +59,41 @@
   "objects": [
     {
       "assetStoreId": "",
-      "name": "Chara",
+      "height": 32,
+      "name": "RoomFloor",
+      "tags": "",
+      "texture": "assets\\graphics\\tileset\\floor_test.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Player",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 999,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 100,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": false,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
       "animations": [
         {
           "name": "idle",
@@ -61,12 +105,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\idle_1.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -78,12 +122,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\idle_2.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -95,12 +139,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\idle_3.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -112,12 +156,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\idle_4.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -136,17 +180,17 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_1.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -158,12 +202,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_2.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -175,12 +219,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_3.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -192,12 +236,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_4.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -209,12 +253,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_5.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -226,12 +270,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_6.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -243,12 +287,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_7.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -260,12 +304,12 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\run_8.png",
+                  "image": "assets\\graphics\\sprites\\player\\player_run_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 27.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -282,7 +326,177 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera Control",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "3",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Player Movement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -312,5 +526,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
 }
