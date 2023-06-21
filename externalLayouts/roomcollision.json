@@ -6,7 +6,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 37,
+      "height": 52,
       "layer": "",
       "name": "WallCollision",
       "persistentUuid": "7b872c60-c8f4-4764-9fb6-3b0e42f67f76",
@@ -22,7 +22,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 37,
+      "height": 52,
       "layer": "",
       "name": "WallCollision",
       "persistentUuid": "05b2815c-9c8d-4cb2-8be4-480f420a8fd3",
@@ -70,7 +70,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 64,
+      "height": 80,
       "layer": "",
       "name": "WallCollision",
       "persistentUuid": "964bbf3d-3db4-4658-8bc9-baceb8e85482",
@@ -86,7 +86,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 64,
+      "height": 80,
       "layer": "",
       "name": "WallCollision",
       "persistentUuid": "20adcb35-9e9d-4202-9dc5-ba88b4dc4c46",
@@ -129,6 +129,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Room",
+      "persistentUuid": "f129caeb-3321-4b81-9da5-071e8b2cfb02",
+      "width": 0,
+      "x": 192,
+      "y": 112,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -141,7 +156,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.8046714318873989,
+    "zoomFactor": 2.599152591679655,
     "windowMask": false
   }
 }
