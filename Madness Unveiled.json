@@ -540,6 +540,222 @@
         "name": "assets\\graphics\\sprites\\player\\player_run_8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoomFloor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RoomFloor",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ObjectTest1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ObjectTest1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomFloor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomFloor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/WallCollision.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\WallCollision.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/ObjectTest1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\ObjectTest1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_graphics_sprites_ObjectTest2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\graphics\\sprites\\ObjectTest2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/ObjectTest2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\ObjectTest2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ObjectTest3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ObjectTest3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/ObjectTest3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\ObjectTest3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Room4Way.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Room4Way.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomBottomDeadEnd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomBottomDeadEnd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomTopBottom2Way.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomTopBottom2Way.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomSide2Way.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomSide2Way.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomTopDeadEnd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomTopDeadEnd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomLeftDeadEnd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomLeftDeadEnd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomRightDeadEnd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomRightDeadEnd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomLeftRight2Way.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomLeftRight2Way.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoomFloor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RoomFloor2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomPerimeter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomPerimeter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoomPerimeter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RoomPerimeter",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomCheck1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomCheck1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomCheck2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomCheck2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomCheck3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomCheck3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -550,15 +766,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main-menu"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-scene"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"
