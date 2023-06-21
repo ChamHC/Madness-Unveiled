@@ -18,10 +18,25 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2952916551235967,
+    "zoomFactor": 1.86552554825703,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "GroupCollision",
+      "objects": [
+        {
+          "name": "WallCollision"
+        },
+        {
+          "name": "RoomWall1"
+        },
+        {
+          "name": "RoomWall2"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -35,8 +50,8 @@
       "children": [
         {
           "name": "Animation",
-          "type": "number",
-          "value": 0
+          "type": "string",
+          "value": "0,0,0"
         },
         {
           "name": "DeltaX",
@@ -47,6 +62,48 @@
           "name": "DeltaY",
           "type": "number",
           "value": 0
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "RoomCheckIncrement",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DoorExist",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "Bottom",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Left",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Right",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "SkipSpecialCase",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "Top",
+          "type": "number",
+          "value": 2
         }
       ]
     }
@@ -60,8 +117,8 @@
       "name": "Player",
       "persistentUuid": "42790ae1-f5bc-4832-a04b-9e6ade437c2d",
       "width": 0,
-      "x": 637,
-      "y": 341,
+      "x": 624,
+      "y": 412,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -75,8 +132,8 @@
       "name": "Room",
       "persistentUuid": "64b9c075-a285-4ad4-8769-623910b8b62a",
       "width": 0,
-      "x": 653,
-      "y": 362,
+      "x": 640,
+      "y": 368,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,9 +147,9 @@
       "name": "RoomPerimeter",
       "persistentUuid": "bd5583cb-e448-4f1c-8025-ff577904c34a",
       "width": 0,
-      "x": 653,
-      "y": 362,
-      "zOrder": 0,
+      "x": 640,
+      "y": 368,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -389,7 +446,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\graphics\\indicator\\RoomPerimeter.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "CollisionOrigin",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 192,
@@ -419,10 +482,10 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 200,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 999,
+          "maxSpeed": 198,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -960,14 +1023,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 15.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 15.5
                   },
                   "customCollisionMask": []
                 }
@@ -1002,14 +1065,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 15.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 15.5
                   },
                   "customCollisionMask": []
                 }
@@ -1041,6 +1104,149 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\graphics\\indicator\\RoomCheck3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 15.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 15.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RoomCheck4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "RoomCheck4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\RoomCheck4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 15.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 15.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RoomWall1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\background\\RoomWall0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RoomWall2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomWall1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1162,6 +1368,24 @@
               "parameters": [
                 "RoomPerimeter"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "WallCollision"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "GroupCollision",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -1186,6 +1410,17 @@
                 "",
                 "RoomPerimeter",
                 "Room"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"RoomCollision\"",
+                "RoomPerimeter.PointX(\"CollisionOrigin\")",
+                "RoomPerimeter.PointY(\"CollisionOrigin\")"
               ]
             }
           ]
@@ -1329,6 +1564,35 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "GroupCollision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "GroupCollision",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -1355,32 +1619,345 @@
                 "Player.Y()",
                 ""
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "RoomPerimeter",
+                "Player.X()",
+                "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Player Enters Right Doorway"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "CollisionPoint"
+                    "value": "PosX"
                   },
                   "parameters": [
-                    "RoomPerimeter",
-                    "Player.X()",
-                    "Player.Y()"
+                    "Player",
+                    ">=",
+                    "RoomPerimeter.X() + 50"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaX",
+                    "=",
+                    "RoomPerimeter.Width()"
                   ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ModVarScene"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "NewRoom.DeltaY",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "NewRoom.Animation",
+                    "=",
+                    "\"0,0,0,2,2,6\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Players Enter Left Doorway"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<=",
+                    "RoomPerimeter.X() - 50"
+                  ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaX",
+                    "=",
+                    "-RoomPerimeter.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaY",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "NewRoom.Animation",
+                    "=",
+                    "\"0,0,0,2,2,5\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Players Enter Top Doorway"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">=",
+                    "RoomPerimeter.Y() + 50"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaX",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaY",
+                    "=",
+                    "RoomPerimeter.Height()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "NewRoom.Animation",
+                    "=",
+                    "\"0,0,0,1,1,3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Players Enter Bottom Doorway"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<=",
+                    "RoomPerimeter.Y() - 50"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaX",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewRoom.DeltaY",
+                    "=",
+                    "-RoomPerimeter.Height()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "NewRoom.Animation",
+                    "=",
+                    "\"0,0,0,1,1,4\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Create Room"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "Room",
+                    "Room",
+                    "RoomPerimeter.X()+Variable(NewRoom.DeltaX)",
+                    "RoomPerimeter.Y()+Variable(NewRoom.DeltaY)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "Room",
+                    "RoomPerimeter",
+                    "RoomPerimeter.X()+Variable(NewRoom.DeltaX)",
+                    "RoomPerimeter.Y()+Variable(NewRoom.DeltaY)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RoomCollision\"",
+                    "RoomPerimeter.PointX(\"CollisionOrigin\")+Variable(NewRoom.DeltaX)",
+                    "RoomPerimeter.PointY(\"CollisionOrigin\")+Variable(NewRoom.DeltaY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "RoomPerimeter",
+                    "Room"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Room",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NumOfRoom",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -1392,480 +1969,358 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Player Enters Right Doorway"
+                  "comment": "Set Room Variation"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">=",
-                        "RoomPerimeter.X() + 50"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaX",
-                        "=",
-                        "RoomPerimeter.Width()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaY",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.Animation",
-                        "=",
-                        "Choose::RandomNumber(\"0,2,6\")"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "NewRoom.Animation",
-                            "=",
-                            "6"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "NumOfRoom",
-                            ">",
-                            "5"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "NewRoom.Animation",
-                            "=",
-                            "6"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Players Enter Left Doorway"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "<=",
-                        "RoomPerimeter.X() - 50"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaX",
-                        "=",
-                        "-RoomPerimeter.Width()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaY",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.Animation",
-                        "=",
-                        "Choose::RandomNumber(\"0,2,5\")"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "NumOfRoom",
-                            ">",
-                            "5"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "NewRoom.Animation",
-                            "=",
-                            "5"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Players Enter Top Doorway"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">=",
-                        "RoomPerimeter.Y() + 50"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaX",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaY",
-                        "=",
-                        "RoomPerimeter.Height()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.Animation",
-                        "=",
-                        "Choose::RandomNumber(\"0,1,3\")"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "NumOfRoom",
-                            ">",
-                            "5"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "NewRoom.Animation",
-                            "=",
-                            "3"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Players Enter Bottom Doorway"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "<=",
-                        "RoomPerimeter.Y() - 50"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaX",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.DeltaY",
-                        "=",
-                        "-RoomPerimeter.Height()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NewRoom.Animation",
-                        "=",
-                        "Choose::RandomNumber(\"0,1,4\")"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "NumOfRoom",
-                            ">",
-                            "5"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "NewRoom.Animation",
-                            "=",
-                            "4"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Create Room"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
+                        "value": "CollisionPoint"
                       },
                       "parameters": [
                         "Room",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
                         "Room",
-                        "RoomPerimeter.X()+Variable(NewRoom.DeltaX)",
-                        "RoomPerimeter.Y()+Variable(NewRoom.DeltaY)",
+                        "=",
+                        "Choose::RandomNumber(VariableString(NewRoom.Animation))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
+                      },
+                      "parameters": [
+                        "Room",
+                        "SmoothCamera",
+                        "yes",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "SmoothCamera::SmoothCamera::SetFollowOnX"
                       },
                       "parameters": [
                         "Room",
-                        "RoomPerimeter",
-                        "RoomPerimeter.X()+Variable(NewRoom.DeltaX)",
-                        "RoomPerimeter.Y()+Variable(NewRoom.DeltaY)",
+                        "SmoothCamera",
+                        "yes",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "LinkedObjects::LinkObjects"
-                      },
-                      "parameters": [
-                        "",
-                        "RoomPerimeter",
-                        "Room"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "Room",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "NumOfRoom",
-                        "+",
-                        "1"
                       ]
                     }
                   ],
                   "events": [
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Patching Up Holes In Collision Mask"
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "Animation"
                           },
                           "parameters": [
                             "Room",
-                            "Player.X()",
-                            "Player.Y()"
+                            "=",
+                            "1"
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "ChangeAnimation"
+                            "value": "Create"
                           },
                           "parameters": [
-                            "Room",
-                            "=",
-                            "Variable(NewRoom.Animation)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
-                          },
-                          "parameters": [
-                            "Room",
-                            "SmoothCamera",
-                            "yes",
+                            "",
+                            "RoomWall2",
+                            "Room.X()+174",
+                            "Room.Y()-40",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "SmoothCamera::SmoothCamera::SetFollowOnX"
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()-210",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
                           },
                           "parameters": [
                             "Room",
-                            "SmoothCamera",
-                            "yes",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()-130",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()+94",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Room",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()+94",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()-210",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()+174",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Room",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()-130",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()-210",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()+174",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Room",
+                            "=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()-130",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()+94",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()-210",
+                            "Room.Y()-40",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Room",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()-130",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall1",
+                            "Room.X()-35",
+                            "Room.Y()+94",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RoomWall2",
+                            "Room.X()+174",
+                            "Room.Y()-40",
                             ""
                           ]
                         }

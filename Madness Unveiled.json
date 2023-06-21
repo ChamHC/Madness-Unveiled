@@ -756,6 +756,51 @@
         "name": "assets\\graphics\\indicator\\RoomCheck3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoomCheck4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RoomCheck4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomCheck4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomCheck4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Assets Filter/RoomCollisionMask/roomCollision3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Assets Filter\\RoomCollisionMask\\roomCollision3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomWall0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomWall0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomWall1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomWall1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -788,6 +833,11 @@
       "referenceTo": "/eventsFunctionsExtensions/health"
     }
   ],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/roomcollision"
+    }
+  ],
   "externalSourceFiles": []
 }
