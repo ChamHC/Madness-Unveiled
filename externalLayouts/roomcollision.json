@@ -129,21 +129,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Room",
-      "persistentUuid": "f129caeb-3321-4b81-9da5-071e8b2cfb02",
-      "width": 0,
-      "x": 192,
-      "y": 112,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -156,7 +141,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.599152591679655,
+    "zoomFactor": 1.134371579716099,
     "windowMask": false
   }
 }

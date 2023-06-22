@@ -1520,6 +1520,42 @@
         "name": "assets\\graphics\\sprites\\player\\player_hurt_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Light.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LighCirclet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LighCirclet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShadowLine.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadowLine",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/LightCircle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\LightCircle.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1535,6 +1571,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
