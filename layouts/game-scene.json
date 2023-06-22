@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988929,
+    "zoomFactor": 0.5843784410740989,
     "windowMask": false
   },
   "objectsGroups": [
@@ -33,6 +33,36 @@
         },
         {
           "name": "RoomWall2"
+        }
+      ]
+    },
+    {
+      "name": "GroupEnemies",
+      "objects": [
+        {
+          "name": "GhostEnemy"
+        }
+      ]
+    },
+    {
+      "name": "GroupEntities",
+      "objects": [
+        {
+          "name": "Player"
+        },
+        {
+          "name": "GhostEnemy"
+        }
+      ]
+    },
+    {
+      "name": "GroupProjectiles",
+      "objects": [
+        {
+          "name": "Bullet"
+        },
+        {
+          "name": "GhostProjectile"
         }
       ]
     }
@@ -128,28 +158,35 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Environment",
       "name": "Room",
       "persistentUuid": "64b9c075-a285-4ad4-8769-623910b8b62a",
       "width": 0,
       "x": 640,
       "y": 368,
-      "zOrder": 0,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Active",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Environment",
       "name": "RoomPerimeter",
       "persistentUuid": "bd5583cb-e448-4f1c-8025-ff577904c34a",
       "width": 0,
       "x": 640,
       "y": 368,
-      "zOrder": -1,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -173,13 +210,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 32,
+      "height": 20,
       "layer": "UI",
       "name": "HealthBar",
       "persistentUuid": "075189eb-a0ea-45ae-b50f-8a6bdffe7146",
       "width": 448,
       "x": 71,
-      "y": 682,
+      "y": 680,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,13 +226,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 32,
+      "height": 20,
       "layer": "UI",
       "name": "StaminaBar",
       "persistentUuid": "7f69bb7c-a39d-4a4e-b5dd-1fb331624534",
       "width": 448,
-      "x": 761,
-      "y": 682,
+      "x": 71,
+      "y": 700,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,6 +249,66 @@
       "x": 60,
       "y": 666,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Ammunition",
+      "persistentUuid": "e4a322a3-4188-4482-a6a5-15a390d4360f",
+      "width": 0,
+      "x": 762,
+      "y": 682,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Ammunition",
+      "persistentUuid": "fed2fc8b-244c-425c-92bd-c1bb15cd2492",
+      "width": 0,
+      "x": 777,
+      "y": 682,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Ammunition",
+      "persistentUuid": "f7bfd359-75ef-4ce6-8a28-856f9015e46f",
+      "width": 0,
+      "x": 792,
+      "y": 682,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "AmmunitionDisplay",
+      "persistentUuid": "1e68b2e6-44d4-413f-96db-ff45b282d571",
+      "width": 0,
+      "x": 812,
+      "y": 689,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -665,7 +762,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Hurt",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 5,
+            "brightness": 5,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 5,
+            "red": 5,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Health",
@@ -673,7 +787,7 @@
           "Health": 3,
           "CurrentHealth": 0,
           "MaxHealth": 3,
-          "DamageCooldown": 0,
+          "DamageCooldown": 0.3,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 0,
           "HealthRegenDelay": 0,
@@ -696,12 +810,12 @@
           "HealToBeApplied": 0
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 3000,
           "deceleration": 9000000,
           "ignoreDefaultControls": true,
           "maxSpeed": 70,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -718,7 +832,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1819,17 +1933,17 @@
           "AmmoQuantity": 0,
           "ShotsPerReload": 0,
           "ReloadDuration": 1,
-          "MaxAmmo": 0,
+          "MaxAmmo": 2,
           "ShotsBeforeNextReload": 0,
           "TotalShotsFired": 0,
           "TotalBulletsCreated": 0,
-          "StartingAmmo": 0,
+          "StartingAmmo": 2,
           "TotalReloadsCompleted": 0,
           "UnlimitedAmmo": true,
           "ReloadInProgress": false,
           "HeatIncreasePerShot": 0,
           "HeatLevel": 0,
-          "AutomaticReloading": true,
+          "AutomaticReloading": false,
           "OverheatDuration": 0,
           "LinearCoolingRate": 0.1,
           "ExponentialCoolingRate": 0.3,
@@ -1938,10 +2052,10 @@
       "childrenContent": {
         "Background": {
           "bottomMargin": 6,
-          "height": 34,
+          "height": 32,
           "leftMargin": 4,
           "rightMargin": 4,
-          "texture": "assets\\graphics\\UI\\Flat Bar White Border.png",
+          "texture": "assets\\graphics\\UI\\Flat Bar Red Border.png",
           "tiled": true,
           "topMargin": 6,
           "width": 224
@@ -1967,7 +2081,7 @@
           "width": 24
         },
         "Label": {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
@@ -2007,7 +2121,7 @@
           "height": 34,
           "leftMargin": 4,
           "rightMargin": 4,
-          "texture": "assets\\graphics\\UI\\Flat Bar White Border.png",
+          "texture": "assets\\graphics\\UI\\Flat Bar Blue Border.png",
           "tiled": true,
           "topMargin": 6,
           "width": 224
@@ -2033,7 +2147,7 @@
           "width": 24
         },
         "Label": {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
@@ -2048,6 +2162,1525 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "9f8e925775a02e6b6a2609de713315b010868d5342a3b6bf596594e97152f7af",
+      "name": "Ammunition",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\Ammo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AmmunitionDisplay",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "99/99",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemiesHealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "EnemiesHealthBar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\EnemiesHealthBar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemiesSpawner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Spawned",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "EnemiesSpawner",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\EnemiesSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "GhostEnemy",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoidsMovement",
+          "type": "BoidsMovement::BoidsMovement",
+          "MaxSpeed": 8,
+          "MaxAcceleration": 999,
+          "ShouldRotate": false,
+          "CohesionRadius": 64,
+          "AlignmentRadius": 48,
+          "SeparationRadius": 32,
+          "CohesionWeight": 1,
+          "AlignmentWeight": 1,
+          "SeparationWeight": 2,
+          "TrajectoryDistance": 2
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 0,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 3,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 1,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 1,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 2,
+          "CurrentHealth": 0,
+          "MaxHealth": 2,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Move",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\Ghost_Moving0.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\Ghost_Moving1.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Point",
+                      "x": 17,
+                      "y": 15.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack0.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack1.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack2.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack3.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack4.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack5.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack6.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostAttack7.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    },
+                    {
+                      "name": "Shoot",
+                      "x": 17,
+                      "y": 16.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead0.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead1.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead2.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead3.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead4.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead5.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead6.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead7.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead8.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead9.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead10.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead11.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostDead12.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\enemies\\GhostHurt0.png",
+                  "points": [
+                    {
+                      "name": "Health",
+                      "x": 16,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 27
+                      },
+                      {
+                        "x": 10,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "41d69f496ff73c012a8305456ffc7809f264f19e07da068c039e2031eeffb5f6",
+      "name": "GhostProjectile",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2158,16 +3791,6 @@
               "parameters": [
                 "WallCollision"
               ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "GroupCollision",
-                "=",
-                "1"
-              ]
             }
           ]
         },
@@ -2259,7 +3882,106 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Player Movement",
+      "name": "Z-Ordering",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "GroupEntities",
+                "=",
+                "GroupEntities.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Pistol",
+                "=",
+                "Player.ZOrder()+1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Room",
+                "=",
+                "-99999"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "GroupCollision",
+                "=",
+                "-99998"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "GroupEnemies",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "EnemiesHealthBar",
+                "GroupEnemies",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "EnemiesHealthBar",
+                "GroupEnemies.PointX(\"Health\")",
+                "GroupEnemies.PointY(\"Health\")",
+                "0",
+                "270"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemiesHealthBar",
+                "=",
+                "GroupEnemies.ZOrder()"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -2286,6 +4008,16 @@
                 "",
                 "w"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
             }
           ],
           "actions": [
@@ -2310,6 +4042,16 @@
               "parameters": [
                 "",
                 "a"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
               ]
             }
           ],
@@ -2336,6 +4078,16 @@
                 "",
                 "s"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
             }
           ],
           "actions": [
@@ -2360,6 +4112,16 @@
               "parameters": [
                 "",
                 "d"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
               ]
             }
           ],
@@ -2411,12 +4173,34 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetChanceToDodgeOp"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
@@ -2552,6 +4336,18 @@
                 "Clones",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetChanceToDodgeOp"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
             }
           ]
         },
@@ -2565,6 +4361,16 @@
               "parameters": [
                 "",
                 "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
               ]
             },
             {
@@ -2625,6 +4431,16 @@
                 "Player",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
             }
           ],
           "actions": [
@@ -2651,6 +4467,16 @@
                 "Player",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
             }
           ],
           "actions": [
@@ -2661,6 +4487,73 @@
               "parameters": [
                 "Player",
                 "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDamageCooldownActive"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDamageCooldownActive"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\"",
+                "no"
               ]
             }
           ]
@@ -2797,7 +4690,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "GroupEntities",
                 "GroupCollision",
                 "",
                 "",
@@ -2811,7 +4704,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "Player",
+                "GroupEntities",
                 "GroupCollision",
                 ""
               ]
@@ -2826,7 +4719,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Bullet",
+                "GroupProjectiles",
                 "GroupCollision",
                 "",
                 "",
@@ -2840,7 +4733,89 @@
                 "value": "Delete"
               },
               "parameters": [
+                "GroupProjectiles",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "Bullet",
+                "GroupEnemies",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GhostProjectile",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GhostProjectile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "1",
+                "",
+                "",
                 ""
               ]
             }
@@ -2882,6 +4857,16 @@
                 "=",
                 "Player.Health::MaxHealth()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "AmmunitionDisplay",
+                "=",
+                "ToString(Pistol.FireBullet::AmmoQuantity()) + \"/\" + ToString(Pistol.FireBullet::MaxAmmo())"
               ]
             }
           ]
@@ -3264,6 +5249,17 @@
                   "parameters": [
                     "",
                     "\"RoomCollision\"",
+                    "RoomPerimeter.PointX(\"CollisionOrigin\")+Variable(NewRoom.DeltaX)",
+                    "RoomPerimeter.PointY(\"CollisionOrigin\")+Variable(NewRoom.DeltaY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnPattern\"+ToString(RandomInRange(1,1))",
                     "RoomPerimeter.PointX(\"CollisionOrigin\")+Variable(NewRoom.DeltaX)",
                     "RoomPerimeter.PointY(\"CollisionOrigin\")+Variable(NewRoom.DeltaY)"
                   ]
@@ -3675,9 +5671,727 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Enemies Spawner",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "EnemiesSpawner",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "EnemiesSpawner",
+                "Spawned",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "GhostEnemy",
+                "EnemiesSpawner.CenterX()",
+                "EnemiesSpawner.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemiesHealthBar",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "EnemiesHealthBar",
+                "GhostEnemy"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariablePushBool"
+              },
+              "parameters": [
+                "EnemiesSpawner",
+                "Spawned",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetCooldownOp"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "FireBullet",
+                "=",
+                "RandomFloatInRange(3,5)",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EnemiesSpawner",
+                    "Spawned",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "EnemiesSpawner",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Ghost",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "BoidsMovement",
+                "Player",
+                "50",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::MoveToObject"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "BoidsMovement",
+                "Player",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Attack"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "GhostEnemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "\"Move\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "FireBullet",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "\"Attack\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "GhostEnemy",
+                "\"Attack\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "GhostEnemy",
+                    ">",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "GhostEnemy",
+                    "FireBullet",
+                    "GhostEnemy.PointX(\"Shoot\")",
+                    "GhostEnemy.PointY(\"Shoot\")",
+                    "GhostProjectile",
+                    "Player.X()",
+                    "Player.Y()",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetCooldownOp"
+                  },
+                  "parameters": [
+                    "GhostEnemy",
+                    "FireBullet",
+                    "=",
+                    "RandomFloatInRange(3,5)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationEnded2"
+                  },
+                  "parameters": [
+                    "GhostEnemy"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GhostEnemy",
+                    "\"Move\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Entities Behaviour",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "\"Hurt\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemiesHealthBar",
+                    "GroupEnemies",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "EnemiesHealthBar",
+                    "=",
+                    "(GroupEnemies.Health::Health()/GroupEnemies.Health::MaxHealth())*12"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Hurt\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Dead\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetChanceToDodgeOp"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "BoidsMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "EllipseMovement",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Move\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Attack\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetChanceToDodgeOp"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "BoidsMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "EllipseMovement",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "GroupEnemies"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemiesHealthBar",
+                    "GhostEnemy",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "EnemiesHealthBar",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "GroupEnemies",
+                    "\"Hurt\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "GroupEnemies",
+                        "Health",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "GroupEnemies",
+                        "\"Move\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "GroupEnemies",
+                        "Health",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "GroupEnemies",
+                        "\"Dead\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "GroupEnemies",
+                ">",
+                "Player.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "GroupEnemies",
+                ">",
+                "Player.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Environment",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -3724,12 +6438,24 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "BoidsMovement",
+      "type": "BoidsMovement::BoidsMovement"
+    },
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
     },
     {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
     },
     {
       "name": "SmoothCamera",

@@ -942,6 +942,584 @@
         "name": "assets\\graphics\\UI\\Flat Bar Blue Fill Bar.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dark LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dark LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/60509113f640778fad77718ffc0f8c88e6dac6a2e5c13756da0999b27fff799e_Dark LCD Bar Fill.png",
+          "name": "Dark LCD Bar Fill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold bar background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold bar background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/170e9526f226a42898891871c54cd7dc7ff4f3f9242764fde54e6a4b96349d51_Gold bar background.png",
+          "name": "Gold bar background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/55034bb02ed0cbeede3da64dcf05d3590abee4a8fa69657ed5d461f31d2f1df0_Green LCD Bar Fill.png",
+          "name": "Green LCD Bar Fill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Grey LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Grey LCD Bar Fill.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Dark LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Dark LCD Bar Fill.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Gold bar background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Gold bar background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ammo 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ammo 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/74022bce05e8d05a7bb0ba57f3ef16cf8dbf41166783c12425cbae5a6b292264_Ammo 4.png",
+          "name": "Ammo 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Ammo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Ammo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Flat Bar Red Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Flat Bar Red Border.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Flat Bar Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Flat Bar Blue Border.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/Ghost_Moving0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\Ghost_Moving0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/Ghost_Moving1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\Ghost_Moving1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostAttack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostAttack7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostDead12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostDead12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostHurt1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostHurt1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/GhostHurt0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\GhostHurt0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EnemiesSpawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EnemiesSpawner",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/EnemiesSpawner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\EnemiesSpawner.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EnemiesHealthBar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EnemiesHealthBar",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/EnemiesHealthBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\EnemiesHealthBar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/cfad89fcba3bb91b72f7d2d4e5b3f3c6b0c4e2b845799ffb938d03e0eaaef55b_Nautolan Spinning Bullet_1.png",
+          "name": "Nautolan Spinning Bullet_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/ea88ed2dcafa637599fa876a109828c7975a53e55f09dd69c4b60b9ade3b63b3_Nautolan Spinning Bullet_2.png",
+          "name": "Nautolan Spinning Bullet_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/2d27d4c7069392da75aaf41e37da2cc518ff88cacb657942c15ee550c85d9155_Nautolan Spinning Bullet_3.png",
+          "name": "Nautolan Spinning Bullet_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/dc986991a26b6c7484a2394120ec0ab4b8de1aa566eb7bc032d16120bfde49fd_Nautolan Spinning Bullet_4.png",
+          "name": "Nautolan Spinning Bullet_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/95d8a9696e58c6e4082cb89b54ffc0d56b30f9255cd05c085ba1d174badb7f68_Nautolan Spinning Bullet_5.png",
+          "name": "Nautolan Spinning Bullet_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/fa60fd8479e70994a1b7a4b856632b38b887ff721bc354d5ac51fa7289197e7a_Nautolan Spinning Bullet_6.png",
+          "name": "Nautolan Spinning Bullet_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/3fa3e9cc0327f8e1b0a641ca96319446826f18c9fbdf01ba43ff7ae53ec8f655_Nautolan Spinning Bullet_7.png",
+          "name": "Nautolan Spinning Bullet_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nautolan Spinning Bullet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/f9e7328b75cf333f7e13bee2d792eecbed956a6d3b676b32cbead4d681efcba9_Nautolan Spinning Bullet_8.png",
+          "name": "Nautolan Spinning Bullet_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/Nautolan Spinning Bullet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/player_hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\player_hurt_1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -957,6 +1535,26 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boidsmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
@@ -983,6 +1581,10 @@
     }
   ],
   "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/spawnpattern1"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/roomcollision"
