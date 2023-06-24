@@ -64,7 +64,7 @@
     }
   ],
   "editionSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -72,8 +72,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 1.2952916551235953,
+    "snap": true,
+    "zoomFactor": 1.2530387740589883,
     "windowMask": false
   }
 }

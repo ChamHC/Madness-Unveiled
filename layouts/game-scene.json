@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3841198046307015,
+    "zoomFactor": 0.8141881203710017,
     "windowMask": false
   },
   "objectsGroups": [
@@ -58,9 +58,6 @@
     {
       "name": "GroupProjectiles",
       "objects": [
-        {
-          "name": "Bullet"
-        },
         {
           "name": "GhostProjectile"
         }
@@ -1019,12 +1016,16 @@
           "HealToBeApplied": 0
         },
         {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        },
+        {
+          "maxSpeed": 70,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 3000,
           "deceleration": 9000000,
           "ignoreDefaultControls": true,
-          "maxSpeed": 70,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -2201,7 +2202,7 @@
           "RotateBullet": true,
           "AmmoQuantity": 0,
           "ShotsPerReload": 0,
-          "ReloadDuration": 1,
+          "ReloadDuration": 0,
           "MaxAmmo": 2,
           "ShotsBeforeNextReload": 0,
           "TotalShotsFired": 0,
@@ -2327,7 +2328,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3857,9 +3863,21 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Damage",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4217,21 +4235,21 @@
                       },
                       {
                         "x": 48,
-                        "y": 18
+                        "y": 13
                       },
                       {
-                        "x": 46.5,
-                        "y": 18.5
+                        "x": 48,
+                        "y": 14.5
                       }
                     ],
                     [
                       {
-                        "x": 46,
-                        "y": 28.5
+                        "x": 48,
+                        "y": 31.5
                       },
                       {
                         "x": 48,
-                        "y": 28.5
+                        "y": 34
                       },
                       {
                         "x": 44,
@@ -4971,6 +4989,14 @@
               "parameters": [
                 "LightBox"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GroupRoomChecker"
+              ]
             }
           ]
         },
@@ -5024,24 +5050,6 @@
               "parameters": [
                 "",
                 "\"StaminaRecovery\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EnemiesExhausted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"EnemiesExhausted\""
               ]
             },
             {
@@ -5126,6 +5134,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -5150,7 +5159,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Z-Ordering",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5566,7 +5574,7 @@
                 "Clones",
                 "4",
                 "2",
-                "50",
+                "0",
                 "0",
                 "",
                 "Player.ZOrder()",
@@ -6410,14 +6418,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "GroupProjectiles",
-                "GroupCollision",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "GroupProjectiles",
+                    "GroupCollision",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "GroupProjectiles",
+                    "InOnScreen",
+                    "0",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -6428,6 +6456,54 @@
               },
               "parameters": [
                 "GroupProjectiles",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "GroupCollision",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "InOnScreen",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
                 ""
               ]
             }
@@ -6530,7 +6606,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GhostProjectile",
+                "GroupProjectiles",
                 "Player",
                 "",
                 "",
@@ -6544,7 +6620,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "GhostProjectile",
+                "GroupProjectiles",
                 ""
               ]
             },
@@ -6555,7 +6631,7 @@
               "parameters": [
                 "Player",
                 "Health",
-                "1",
+                "GroupProjectiles.Variable(Damage)",
                 "",
                 "",
                 ""
@@ -6670,6 +6746,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Creating Rooms",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6764,16 +6841,6 @@
                     "=",
                     "\"0,2,6\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "NewRoom.Animation",
-                    "=",
-                    "\"6\""
-                  ]
                 }
               ]
             },
@@ -6832,16 +6899,6 @@
                     "NewRoom.Animation",
                     "=",
                     "\"0,2,5\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "NewRoom.Animation",
-                    "=",
-                    "\"5\""
                   ]
                 }
               ]
@@ -6902,16 +6959,6 @@
                     "=",
                     "\"0,1,3\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "NewRoom.Animation",
-                    "=",
-                    "\"3\""
-                  ]
                 }
               ]
             },
@@ -6970,16 +7017,6 @@
                     "NewRoom.Animation",
                     "=",
                     "\"0,1,4\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "NewRoom.Animation",
-                    "=",
-                    "\"4\""
                   ]
                 }
               ]
@@ -7074,17 +7111,6 @@
                     "NumOfRoom",
                     "+",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Room",
-                    "Index",
-                    "=",
-                    "SceneInstancesCount(Room)"
                   ]
                 }
               ],
@@ -7729,7 +7755,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Entities Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
