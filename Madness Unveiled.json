@@ -1556,13 +1556,338 @@
         "name": "assets\\graphics\\indicator\\LightCircle.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalIdle7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalSpawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalSpawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/GreenPortalDespawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\GreenPortalDespawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/m5x7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\m5x7.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/NicoPups-Monospaced.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\NicoPups-Monospaced.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/BasicPupWhite.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\BasicPupWhite.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/BasicPupWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\BasicPupWhite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoomChecker.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RoomChecker",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomChecker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomChecker.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomChecker1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomChecker1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/RoomChecker2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\RoomChecker2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "PlayerInfo",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Ammo",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "Current",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "folded": true,
+              "name": "Max",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "name": "Health",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "Current",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "folded": true,
+              "name": "Max",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "Stamina",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "Current",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "folded": true,
+              "name": "Max",
+              "type": "number",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
