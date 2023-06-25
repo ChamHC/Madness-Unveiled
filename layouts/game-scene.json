@@ -9,7 +9,7 @@
   "title": "",
   "v": 0,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.8141881203710017,
+    "snap": true,
+    "zoomFactor": 1.3841198046307017,
     "windowMask": false
   },
   "objectsGroups": [
@@ -154,10 +154,48 @@
       ]
     },
     {
-      "folded": true,
-      "name": "CameraZoom",
-      "type": "number",
-      "value": 3.25
+      "name": "Camera",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Constraint",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "BottomY",
+              "type": "number",
+              "value": 480
+            },
+            {
+              "name": "LeftX",
+              "type": "number",
+              "value": 448
+            },
+            {
+              "name": "RightX",
+              "type": "number",
+              "value": 832
+            },
+            {
+              "name": "TopY",
+              "type": "number",
+              "value": 256
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Zoom",
+          "type": "number",
+          "value": 3.25
+        },
+        {
+          "name": "isScrolled",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     }
   ],
   "instances": [
@@ -189,14 +227,7 @@
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Active",
-          "type": "boolean",
-          "value": false
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -361,7 +392,7 @@
       "variables": [
         {
           "folded": true,
-          "name": "Light",
+          "name": "isLight",
           "type": "boolean",
           "value": false
         }
@@ -1020,9 +1051,9 @@
           "type": "IsOnScreen::InOnScreen"
         },
         {
-          "maxSpeed": 70,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 70,
           "acceleration": 3000,
           "deceleration": 9000000,
           "ignoreDefaultControls": true,
@@ -4871,6 +4902,98 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CameraConstraint1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\CameraConstraint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CameraConstraint2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\CameraConstraint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -5134,7 +5257,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -5144,7 +5266,7 @@
               },
               "parameters": [
                 "",
-                "Variable(CameraZoom)",
+                "Variable(Camera.Zoom)",
                 "",
                 ""
               ]
@@ -5159,6 +5281,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Z-Ordering",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5272,7 +5395,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Movement Controls"
+          "comment": "Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5710,270 +5833,6 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "LShift"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DragCameraWithPointer::DragCameraWithPointer"
-              },
-              "parameters": [
-                "",
-                "0",
-                "",
-                "\"both\"",
-                "Left",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Tab"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "CameraZoom",
-                "-",
-                "0.05"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "FlashLight"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "GroupEnemies"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "EnemiesHealthBar"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Room",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Room",
-                    "Light",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "RoomLight",
-                    "Room.X()",
-                    "Room.Y()",
-                    "\"Lighting\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Room",
-                    "Light",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Tab"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "LShift"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "CameraZoom",
-                "<",
-                "3.25"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "CameraZoom",
-                "+",
-                "0.05"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "CameraZoom",
-                ">=",
-                "3.25"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Room",
-                "Light",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "FlashLight",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "GroupEnemies",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "EnemiesHealthBar",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "RoomLight",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -6070,6 +5929,573 @@
                     "\"Game Scene\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Tab"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GroupEnemies"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EnemiesHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GroupProjectiles"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Room",
+                "SmoothCamera",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingUp"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "NumpadAdd"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Equal"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Camera.Zoom",
+                    "+",
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Camera.isScrolled",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingDown"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "NumpadSubtract"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Dash"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Camera.Zoom",
+                    "-",
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Camera.isScrolled",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DragCameraWithPointer::DragCameraWithPointer"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "",
+                    "\"both\"",
+                    "Left",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Camera.isScrolled",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraConstraint1",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraConstraint2",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraConstraint1",
+                    "Variable(Camera.Constraint.LeftX)",
+                    "Variable(Camera.Constraint.TopY)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraConstraint2",
+                    "Variable(Camera.Constraint.RightX)",
+                    "Variable(Camera.Constraint.BottomY)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                      },
+                      "parameters": [
+                        "CameraConstraint1",
+                        "InOnScreen",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                      },
+                      "parameters": [
+                        "CameraConstraint2",
+                        "InOnScreen",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Camera.isScrolled",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Variable(Camera.Constraint.LeftX)+((Variable(Camera.Constraint.RightX)-Variable(Camera.Constraint.LeftX))/2)",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Variable(Camera.Constraint.TopY)+((Variable(Camera.Constraint.BottomY)-Variable(Camera.Constraint.TopY))/2)",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Camera.Zoom",
+                    "-",
+                    "0.05"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Room",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Room",
+                    "isLight",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RoomLight",
+                    "Room.CenterX()",
+                    "Room.CenterY()",
+                    "\"Lighting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Room",
+                    "isLight",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Tab"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Camera.Zoom",
+                "<",
+                "3.25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Camera.Zoom",
+                "+",
+                "0.05"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Room",
+                "SmoothCamera",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "CameraConstraint1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "CameraConstraint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RoomLight",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Room",
+                    "isLight",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Camera.Zoom",
+                ">=",
+                "3.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GroupEnemies",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "EnemiesHealthBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GroupProjectiles",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Camera.isScrolled",
+                "False"
               ]
             }
           ]
@@ -6746,7 +7172,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Creating Rooms",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7115,6 +7540,126 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Set Camera Constraint For Map Feature"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BoundingBoxBottom"
+                      },
+                      "parameters": [
+                        "RoomPerimeter",
+                        ">",
+                        "Variable(Camera.Constraint.BottomY)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Camera.Constraint.BottomY",
+                        "=",
+                        "Room.BoundingBoxBottom()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BoundingBoxTop"
+                      },
+                      "parameters": [
+                        "RoomPerimeter",
+                        "<",
+                        "Variable(Camera.Constraint.TopY)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Camera.Constraint.TopY",
+                        "=",
+                        "Room.BoundingBoxTop()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BoundingBoxRight"
+                      },
+                      "parameters": [
+                        "RoomPerimeter",
+                        ">",
+                        "Variable(Camera.Constraint.RightX)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Camera.Constraint.RightX",
+                        "=",
+                        "Room.BoundingBoxRight()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BoundingBoxLeft"
+                      },
+                      "parameters": [
+                        "RoomPerimeter",
+                        "<",
+                        "Variable(Camera.Constraint.LeftX)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Camera.Constraint.LeftX",
+                        "=",
+                        "Room.BoundingBoxLeft()"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -7755,6 +8300,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Entities Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8137,6 +8683,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Ghost",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

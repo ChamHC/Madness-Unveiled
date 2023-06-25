@@ -1820,6 +1820,24 @@
         "name": "assets\\graphics\\indicator\\RoomChecker2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/CameraConstraint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\CameraConstraint.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/CameraFocus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\CameraFocus.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
