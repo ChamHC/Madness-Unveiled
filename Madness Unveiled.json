@@ -1838,11 +1838,2636 @@
         "name": "assets\\graphics\\indicator\\CameraFocus.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalIdle7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalSpawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalSpawn7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/PurplePortalDespawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\PurplePortalDespawn5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/RoomBoss.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\RoomBoss.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Flat Bar Red Buffer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Flat Bar Red Buffer.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Hurt",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 5,
+            "brightness": 5,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 5,
+            "red": 5,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0.3,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 0,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 70,
+          "acceleration": 3000,
+          "deceleration": 9000000,
+          "ignoreDefaultControls": true,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 27
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 22
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_8.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 21
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Clones",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 3000,
+          "deceleration": 9000000,
+          "ignoreDefaultControls": true,
+          "maxSpeed": 70,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 27
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_idle_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\player_run_8.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Pistol",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 0,
+          "MaxAmmo": 2,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 2,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": false,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\M1911.png",
+                  "points": [
+                    {
+                      "name": "Shoot",
+                      "x": 19.5,
+                      "y": 15
+                    },
+                    {
+                      "name": "Light",
+                      "x": 12,
+                      "y": 13.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11.5,
+                    "y": 17.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 11.5,
+                    "y": 17.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 13
+                      },
+                      {
+                        "x": 21,
+                        "y": 13
+                      },
+                      {
+                        "x": 21,
+                        "y": 14
+                      },
+                      {
+                        "x": 10,
+                        "y": 14
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 13
+                      },
+                      {
+                        "x": 17,
+                        "y": 13
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 20
+                      },
+                      {
+                        "x": 10,
+                        "y": 20
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 21,
+                        "y": 16
+                      },
+                      {
+                        "x": 21,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 17.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bullet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "HealthBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 100,
+        "InitialValue": 100
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 32,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "assets\\graphics\\UI\\Flat Bar Red Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\graphics\\UI\\Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\graphics\\UI\\Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "0a398f1656e34f64758c909a71ca17cd69fd41bd251d89ff5a640303c4279f50",
+      "name": "StaminaBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 50,
+        "InitialValue": 50
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "assets\\graphics\\UI\\Flat Bar Blue Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\graphics\\UI\\Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\graphics\\UI\\Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "9f8e925775a02e6b6a2609de713315b010868d5342a3b6bf596594e97152f7af",
+      "name": "Ammunition",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\Ammo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AmmunitionDisplay",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "99/99",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\BasicPupWhite.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\BasicPupWhite.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemiesSpawner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Spawned",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "EnemiesSpawner",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\EnemiesSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "FlashLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 100,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PurplePortal",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle0.png",
+                  "points": [
+                    {
+                      "name": "ZOrder",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle4.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle5.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle6.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalIdle7.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spawn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn0.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn4.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn5.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn6.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn7.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Despawn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.18,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn0.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn4.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn5.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 32,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CameraConstraint1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\CameraConstraint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CameraConstraint2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\CameraConstraint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WallCollision",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\WallCollision.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -1886,6 +4511,23 @@
           ]
         },
         {
+          "name": "Progression",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Stage",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "isBossPortalSpawned",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
           "name": "Stamina",
           "type": "structure",
           "children": [
@@ -1910,6 +4552,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/first-boss-scene"
     }
   ],
   "externalEvents": [],
@@ -1971,6 +4617,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/roomcollision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/bossroom1"
     }
   ],
   "externalSourceFiles": []

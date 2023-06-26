@@ -1,0 +1,83 @@
+{
+  "associatedLayout": "Game Scene",
+  "name": "BossRoom1",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "WallCollision",
+      "persistentUuid": "5fad1794-33ec-4fd6-8b36-38b6fb5b6f57",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 736,
+      "layer": "",
+      "name": "WallCollision",
+      "persistentUuid": "43e339d8-c266-4e21-9007-ea0368feb5ca",
+      "width": 64,
+      "x": 0,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 736,
+      "layer": "",
+      "name": "WallCollision",
+      "persistentUuid": "08438609-cb16-43f4-a358-b2114cc1dd4f",
+      "width": 64,
+      "x": 1216,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "WallCollision",
+      "persistentUuid": "b377c7c7-61cc-4df0-9f7a-2a5c35e2805d",
+      "width": 1280,
+      "x": 0,
+      "y": 672,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.41943397827590695,
+    "windowMask": false
+  }
+}
