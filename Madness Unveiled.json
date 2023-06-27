@@ -2054,6 +2054,69 @@
         "name": "assets\\graphics\\UI\\Flat Bar Red Buffer.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parryframe7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parryframe7.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3355,7 +3418,7 @@
           "TotalBulletsCreated": 0,
           "StartingAmmo": 2,
           "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": true,
+          "UnlimitedAmmo": false,
           "ReloadInProgress": false,
           "HeatIncreasePerShot": 0,
           "HeatLevel": 0,
@@ -3383,13 +3446,8 @@
                   "points": [
                     {
                       "name": "Shoot",
-                      "x": 19.5,
+                      "x": 20.5,
                       "y": 15
-                    },
-                    {
-                      "name": "Light",
-                      "x": 12,
-                      "y": 13.5
                     }
                   ],
                   "originPoint": {
@@ -3406,56 +3464,30 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 13
-                      },
-                      {
-                        "x": 21,
-                        "y": 13
-                      },
-                      {
-                        "x": 21,
+                        "x": 16.5,
                         "y": 14
                       },
                       {
-                        "x": 10,
+                        "x": 21,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 17.5,
                         "y": 14
                       }
                     ],
                     [
                       {
-                        "x": 10,
-                        "y": 13
-                      },
-                      {
-                        "x": 17,
-                        "y": 13
-                      },
-                      {
-                        "x": 12.5,
-                        "y": 20
-                      },
-                      {
-                        "x": 10,
-                        "y": 20
-                      }
-                    ],
-                    [
-                      {
-                        "x": 10.5,
-                        "y": 16
+                        "x": 18,
+                        "y": 15
                       },
                       {
                         "x": 21,
-                        "y": 16
+                        "y": 16.5
                       },
                       {
-                        "x": 21,
-                        "y": 17.5
-                      },
-                      {
-                        "x": 10.5,
-                        "y": 17.5
+                        "x": 16.5,
+                        "y": 14
                       }
                     ]
                   ]

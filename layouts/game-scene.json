@@ -1,13 +1,13 @@
 {
-  "b": 0,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Game_32Scene",
   "name": "Game Scene",
-  "r": 0,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 0,
+  "v": 255,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9296875000000117,
+    "zoomFactor": 3.6212820570305038,
     "windowMask": false
   },
   "objectsGroups": [
@@ -319,44 +319,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 41,
       "layer": "UI",
       "name": "Ammunition",
       "persistentUuid": "e4a322a3-4188-4482-a6a5-15a390d4360f",
-      "width": 0,
-      "x": 762,
-      "y": 682,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Ammunition",
-      "persistentUuid": "fed2fc8b-244c-425c-92bd-c1bb15cd2492",
-      "width": 0,
-      "x": 777,
-      "y": 682,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Ammunition",
-      "persistentUuid": "f7bfd359-75ef-4ce6-8a28-856f9015e46f",
-      "width": 0,
-      "x": 792,
-      "y": 682,
+      "width": 32,
+      "x": 736,
+      "y": 672,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -370,8 +341,8 @@
       "name": "AmmunitionDisplay",
       "persistentUuid": "1e68b2e6-44d4-413f-96db-ff45b282d571",
       "width": 0,
-      "x": 812,
-      "y": 684,
+      "x": 770,
+      "y": 679,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -383,11 +354,11 @@
       "height": 0,
       "layer": "Lighting",
       "name": "FlashLight",
-      "persistentUuid": "bbb9b9b0-4ec9-4f9c-98b5-616d4ce34bf4",
+      "persistentUuid": "46f53551-a767-453b-8494-cb3f65a414c5",
       "width": 0,
-      "x": 541,
-      "y": 326,
-      "zOrder": 9,
+      "x": 480,
+      "y": 256,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2212,6 +2183,12 @@
           "name": "Damage",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Parried",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3331,6 +3308,268 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Parry",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.02,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parryframe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4.5,
+                    "y": 19.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3514,6 +3753,15 @@
             },
             {
               "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BitmapText::BitmapTextObject::SetScale"
               },
               "parameters": [
@@ -3590,6 +3838,16 @@
                 "GlobalVariable(PlayerInfo.Ammo.Current)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "SmoothCamera",
+                "no"
+              ]
             }
           ]
         },
@@ -3652,6 +3910,16 @@
               },
               "parameters": [
                 "Pistol",
+                "=",
+                "Player.ZOrder()+1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Parry",
                 "=",
                 "Player.ZOrder()+1"
               ]
@@ -4141,6 +4409,25 @@
             },
             {
               "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "Parry",
+                "Parry",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Pistol"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -4170,6 +4457,171 @@
                 "Bullet",
                 "=",
                 "0.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\"",
+                ">",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "StaminaBar",
+                ">=",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Tab"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Pistol"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "StaminaBar",
+                "-",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Parry",
+                "Player.PointX(\"Gun\")",
+                "Player.PointY(\"Gun\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Parry",
+                "=",
+                "0.75"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "Parry"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Parry",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Pistol",
+                ""
               ]
             }
           ]
@@ -5139,6 +5591,15 @@
                 "Pistol",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "FlipY"
+              },
+              "parameters": [
+                "Parry",
+                "yes"
+              ]
             }
           ]
         },
@@ -5174,6 +5635,15 @@
                 "Pistol",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "FlipY"
+              },
+              "parameters": [
+                "Parry",
+                "no"
+              ]
             }
           ]
         },
@@ -5187,6 +5657,18 @@
               },
               "parameters": [
                 "Pistol",
+                "=",
+                "Player.PointX(\"Gun\")",
+                "=",
+                "Player.PointY(\"Gun\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Parry",
                 "=",
                 "Player.PointX(\"Gun\")",
                 "=",
@@ -5223,6 +5705,18 @@
               },
               "parameters": [
                 "Pistol",
+                "CursorX()",
+                "CursorY()",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Parry",
                 "CursorX()",
                 "CursorY()",
                 "0",
@@ -5477,6 +5971,44 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Parry",
+                "GroupEnemies",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "GroupEnemies",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "GroupProjectiles",
                 "Player",
                 "",
@@ -5501,6 +6033,144 @@
               },
               "parameters": [
                 "Player",
+                "Health",
+                "GroupProjectiles.Variable(Damage)",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Parry",
+                "GroupProjectiles",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "GhostProjectile"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "GhostProjectile",
+                "AngleBetweenPositions(Player.X(),Player.Y(),GroupProjectiles.X(),GroupProjectiles.Y())",
+                "50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "GhostProjectile",
+                "Parried",
+                "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::AmmoQuantity"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    "<",
+                    "Pistol.FireBullet::MaxAmmo()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetAmmoQuantityOp"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    "+",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GroupProjectiles",
+                "GroupEntities",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "GroupProjectiles",
+                "Parried",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GroupProjectiles",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "GroupEntities",
                 "Health",
                 "GroupProjectiles.Variable(Damage)",
                 "",
@@ -5570,6 +6240,17 @@
               "parameters": [
                 "",
                 "\"DashTimer\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\"",
                 ">=",
                 "2"
               ]
@@ -7476,6 +8157,22 @@
   ],
   "layers": [
     {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
@@ -7500,22 +8197,6 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 0,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": true,
-      "isLightingLayer": true,
-      "isLocked": false,
-      "name": "Lighting",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     },
     {
