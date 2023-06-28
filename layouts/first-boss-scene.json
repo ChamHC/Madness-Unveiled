@@ -5,7 +5,7 @@
   "name": "First Boss Scene",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -319,6 +319,21 @@
       "x": 576,
       "y": 224,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Transition",
+      "persistentUuid": "64333144-08c1-4067-8194-505487fc66cd",
+      "width": 0,
+      "x": 1056,
+      "y": 96,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1505,6 +1520,12 @@
           "name": "Damage",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Parried",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1520,7 +1541,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_1.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1537,7 +1558,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_2.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1554,7 +1575,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_3.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1571,7 +1592,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_4.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1588,7 +1609,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_5.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1605,7 +1626,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_6.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1622,7 +1643,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_7.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1639,7 +1660,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\Nautolan Spinning Bullet_8.png",
+                  "image": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1692,6 +1713,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"ParryTimer\""
+          ]
+        },
         {
           "type": {
             "value": "ResetTimer"
@@ -1787,6 +1817,72 @@
             "=",
             "GlobalVariable(PlayerInfo.Ammo.Current)",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SoundCanalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\xDeviruchi - Decisive Battle (Loop).wav",
+                "1",
+                "yes",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -2276,6 +2372,171 @@
           "conditions": [
             {
               "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\"",
+                ">",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "StaminaBar",
+                ">=",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Tab"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsEffectEnabled"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Pistol"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "StaminaBar",
+                "-",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Parry",
+                "Player.PointX(\"Gun\")",
+                "Player.PointY(\"Gun\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Parry",
+                "=",
+                "0.75"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "Parry"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Parry",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Pistol",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -2404,12 +2665,36 @@
                 },
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "FadeSoundVolume"
                   },
                   "parameters": [
                     "",
-                    "\"Game Scene\"",
+                    "1",
+                    "0",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "Transition",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    "2",
+                    "\"Circular\"",
+                    "\"Forward\"",
+                    "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
                   ]
                 },
                 {
@@ -2429,6 +2714,16 @@
                   "parameters": [
                     "PlayerInfo.Progression.isBossPortalSpawned",
                     "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Scene\"",
+                    ""
                   ]
                 }
               ]
@@ -2867,6 +3162,91 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Health.Max",
+                "=",
+                "Player.Health::MaxHealth()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Ammo.Current",
+                "=",
+                "Pistol.FireBullet::AmmoQuantity()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Ammo.Max",
+                "=",
+                "Pistol.FireBullet::MaxAmmo()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Stamina.Current",
+                "=",
+                "StaminaBar.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Stamina.Max",
+                "=",
+                "StaminaBar.MaxValue()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerInfo.Health.Current",
+                "=",
+                "Player.Health::Health()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Pause Menu\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3060,6 +3440,15 @@
                 "Pistol",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "FlipY"
+              },
+              "parameters": [
+                "Parry",
+                "yes"
+              ]
             }
           ]
         },
@@ -3095,6 +3484,15 @@
                 "Pistol",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "FlipY"
+              },
+              "parameters": [
+                "Parry",
+                "no"
+              ]
             }
           ]
         },
@@ -3119,11 +3517,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "LightBox",
+                "Parry",
                 "=",
-                "Player.PointX(\"Light\")",
+                "Player.PointX(\"Gun\")",
                 "=",
-                "Player.PointY(\"Light\")"
+                "Player.PointY(\"Gun\")"
               ]
             },
             {
@@ -3155,7 +3553,7 @@
                 "value": "RotateTowardPosition"
               },
               "parameters": [
-                "LightBox",
+                "Parry",
                 "CursorX()",
                 "CursorY()",
                 "0",
@@ -3311,6 +3709,183 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Parry",
+                "BossTest",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "BossTest",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Parry",
+                "BossNormalAttack",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "BossNormalAttack"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "BossNormalAttack",
+                "AngleBetweenPositions(Parry.X(),Parry.Y(),BossNormalAttack.X(),BossNormalAttack.Y())",
+                "50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "BossNormalAttack",
+                "Parried",
+                "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::AmmoQuantity"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    "<",
+                    "Pistol.FireBullet::MaxAmmo()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetAmmoQuantityOp"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    "+",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BossNormalAttack",
+                "BossTest",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "BossNormalAttack",
+                "Parried",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BossNormalAttack",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "BossTest",
+                "Health",
+                "BossNormalAttack.Variable(Damage)",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "BossNormalAttack",
                 "Player",
                 "",
@@ -3404,6 +3979,17 @@
               "parameters": [
                 "",
                 "\"DashTimer\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ParryTimer\"",
                 ">=",
                 "2"
               ]
@@ -3891,6 +4477,22 @@
   ],
   "layers": [
     {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
@@ -3918,22 +4520,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 0,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": true,
-      "isLightingLayer": true,
-      "isLocked": false,
-      "name": "Lighting",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
@@ -3958,6 +4544,10 @@
     {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Health",

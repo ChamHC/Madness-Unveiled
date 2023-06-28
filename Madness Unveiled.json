@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Main Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -2117,6 +2117,831 @@
         "name": "assets\\graphics\\sprites\\parryframe7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/parry/parry11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\parry\\parry11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalIdle7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalSpawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/PurplePortalDespawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/Nautolan Spinning Bullet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\Nautolan Spinning Bullet_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalIdle7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalSpawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalSpawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/portal/GreenPortalDespawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\portal\\GreenPortalDespawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pistol/M1911.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pistol\\M1911.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pistol/bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pistol\\bullet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/verminred.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\verminred.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/verminred.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\verminred.fnt",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/verminblack.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\verminblack.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/verminblack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\verminblack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/verminwhite.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\verminwhite.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/verminwhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\verminwhite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/barrier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\barrier.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Square White Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Square White Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Square White Slider Fill Bar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Square White Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Square White Slider Border.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/xDeviruchi - Title Theme (Loop).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\xDeviruchi - Title Theme (Loop).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Pause Frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Pause Frame.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/xDeviruchi - The Icy Cave (Loop).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\xDeviruchi - The Icy Cave (Loop).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/xDeviruchi - Decisive Battle (Loop).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\xDeviruchi - Decisive Battle (Loop).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3441,12 +4266,12 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\graphics\\sprites\\M1911.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\pistol\\M1911.png",
                   "points": [
                     {
                       "name": "Shoot",
-                      "x": 20.5,
+                      "x": 20,
                       "y": 15
                     }
                   ],
@@ -3461,36 +4286,7 @@
                     "x": 11.5,
                     "y": 17.5
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 16.5,
-                        "y": 14
-                      },
-                      {
-                        "x": 21,
-                        "y": 13.5
-                      },
-                      {
-                        "x": 17.5,
-                        "y": 14
-                      }
-                    ],
-                    [
-                      {
-                        "x": 18,
-                        "y": 15
-                      },
-                      {
-                        "x": 21,
-                        "y": 16.5
-                      },
-                      {
-                        "x": 16.5,
-                        "y": 14
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -3523,7 +4319,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\bullet.png",
+                  "image": "assets\\graphics\\sprites\\pistol\\bullet.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3826,185 +4622,137 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle0.png",
-                  "points": [
-                    {
-                      "name": "ZOrder",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle0.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle1.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle2.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle2.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle3.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle3.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle4.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle4.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle5.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle5.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle6.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle6.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalIdle7.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalIdle7.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 }
@@ -4022,185 +4770,137 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn0.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn0.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn1.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn2.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn2.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn3.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn3.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn4.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn4.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn5.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn5.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn6.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn6.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalSpawn7.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalSpawn7.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 }
@@ -4218,139 +4918,103 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn0.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn0.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn1.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn2.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn2.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn3.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn3.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn4.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn4.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\PurplePortalDespawn5.png",
-                  "points": [
-                    {
-                      "name": "Point",
-                      "x": 32,
-                      "y": 38
-                    }
-                  ],
+                  "image": "assets\\graphics\\sprites\\portal\\PurplePortalDespawn5.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 32.5,
+                    "y": 36
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.5,
+                    "y": 36
                   },
                   "customCollisionMask": []
                 }
@@ -4498,6 +5162,388 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "name": "Parry",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.01,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -4578,6 +5624,22 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Settings",
+      "type": "structure",
+      "children": [
+        {
+          "name": "MusicVolume",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "name": "SoundVolume",
+          "type": "number",
+          "value": 50
+        }
+      ]
     }
   ],
   "layouts": [
@@ -4588,10 +5650,30 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/first-boss-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pause-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
