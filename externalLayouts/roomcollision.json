@@ -5,7 +5,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 52,
       "layer": "",
       "name": "WallCollision",
@@ -21,7 +20,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 52,
       "layer": "",
       "name": "WallCollision",
@@ -37,7 +35,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 18,
       "layer": "",
       "name": "WallCollision",
@@ -53,7 +50,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 18,
       "layer": "",
       "name": "WallCollision",
@@ -69,7 +65,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 80,
       "layer": "",
       "name": "WallCollision",
@@ -85,7 +80,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 80,
       "layer": "",
       "name": "WallCollision",
@@ -101,7 +95,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 80,
       "layer": "",
       "name": "WallCollision",
@@ -117,7 +110,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
       "height": 80,
       "layer": "",
       "name": "WallCollision",
@@ -201,7 +193,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.2530387740589888,
+    "zoomFactor": 0.9610368693714756,
     "windowMask": false
   }
 }
