@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2530387740589999,
+    "zoomFactor": 1.212164197217382,
     "windowMask": false
   },
   "objectsGroups": [
@@ -41,6 +41,9 @@
       "objects": [
         {
           "name": "GhostEnemy"
+        },
+        {
+          "name": "ToothEnemy"
         }
       ]
     },
@@ -52,6 +55,9 @@
         },
         {
           "name": "GhostEnemy"
+        },
+        {
+          "name": "ToothEnemy"
         }
       ]
     },
@@ -2649,6 +2655,816 @@
     },
     {
       "assetStoreId": "",
+      "name": "ToothEnemy",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoidsMovement",
+          "type": "BoidsMovement::BoidsMovement",
+          "MaxSpeed": 50,
+          "MaxAcceleration": 999,
+          "ShouldRotate": false,
+          "CohesionRadius": 64,
+          "AlignmentRadius": 48,
+          "SeparationRadius": 32,
+          "CohesionWeight": 1,
+          "AlignmentWeight": 1,
+          "SeparationWeight": 2,
+          "TrajectoryDistance": 2
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 5,
+          "RadiusY": 0,
+          "LoopDuration": 8,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 5,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 3,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 1,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 1,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Move",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "blood",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk4.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk5.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk6.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 37,
+                      "y": 19
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 36.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\specialattack1.png",
+                  "points": [
+                    {
+                      "name": "Collision",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "blood",
+                      "x": 37.5,
+                      "y": 19.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\specialattack2.png",
+                  "points": [
+                    {
+                      "name": "Colision",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\specialattack3.png",
+                  "points": [
+                    {
+                      "name": "Collision",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\specialattack4.png",
+                  "points": [
+                    {
+                      "name": "Collision",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death0.png",
+                  "points": [
+                    {
+                      "name": "Collision",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\specialattack5.png",
+                  "points": [
+                    {
+                      "name": "Collision",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death1.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death4.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death5.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death6.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death7.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death8.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death9.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death2.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 36.5,
+                      "y": 33.5
+                    },
+                    {
+                      "name": "blood",
+                      "x": 37,
+                      "y": 27
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 36.5,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "GhostEnemy",
       "tags": "",
       "type": "Sprite",
@@ -5079,6 +5895,466 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "bloodsplat",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "splat",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.022222222222222223,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\bloodsplat\\1_21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ToothEnemyCollisionMelee",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\toothcollision.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 15.5,
+                      "y": 0
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 0,
+                      "y": 16
+                    },
+                    {
+                      "name": "Point3",
+                      "x": 32,
+                      "y": 16
+                    },
+                    {
+                      "name": "Point4",
+                      "x": 15.5,
+                      "y": 32
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 8,
+                    "y": 15
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -5393,7 +6669,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Z-Ordering",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5493,7 +6768,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7862,7 +9136,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Enemies Spawner",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7901,7 +9174,7 @@
               },
               "parameters": [
                 "",
-                "GhostEnemy",
+                "ToothEnemy",
                 "EnemiesSpawner.CenterX()",
                 "EnemiesSpawner.CenterY()",
                 ""
@@ -7927,6 +9200,28 @@
                 "",
                 "EnemiesHealthBar",
                 "GroupEnemies"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ToothEnemyCollisionMelee",
+                "1",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "ToothEnemyCollisionMelee",
+                "ToothEnemy"
               ]
             },
             {
@@ -7989,7 +9284,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Entities Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8570,29 +9864,356 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "ToothEnemy",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "ToothEnemy",
+            "\"Hurt\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "bloodsplat",
+            "ToothEnemy.PointX(\"blood\")",
+            "ToothEnemy.PointY(\"blood\")",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "bloodsplat",
+            "GroupEnemies"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "bloodsplat"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Music",
+      "name": "ToothEnemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "value": "DepartScene"
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "ToothEnemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ToothEnemyCollisionMelee",
+                "ToothEnemy",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "ToothEnemyCollisionMelee",
+                "ToothEnemy.PointX(\"Colision\")",
+                "ToothEnemy.PointY(\"Colision\")",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "ToothEnemyCollisionMelee",
+                "=",
+                "ToothEnemyCollisionMelee.ZOrder()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "ToothEnemyCollisionMelee",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Player",
+                "\"Hurt\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            ""
+          "comment": "Movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::MoveToObject"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "BoidsMovement",
+                "Player",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Attack"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ToothEnemyCollisionMelee"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "ToothEnemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "\"Move\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "FireBullet",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "\"Attack\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "ToothEnemy",
+                "\"Attack\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "ToothEnemy",
+                    ">",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationEnded2"
+                  },
+                  "parameters": [
+                    "ToothEnemy"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "ToothEnemy",
+                    "\"Move\""
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
-      "actions": []
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "ToothEnemy",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "ToothEnemyCollisionMelee",
+            "ToothEnemy",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "ToothEnemy",
+            "\"Dead\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ToothEnemyCollisionMelee",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
