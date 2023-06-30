@@ -2942,6 +2942,538 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/shoot.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\shoot.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/parry_hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\parry_hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gun-empty.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gun-empty.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/parry_miss.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\parry_miss.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/parry.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\parry.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/dash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\dash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 5.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 5.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 6.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 6.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 7.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 7.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter Synthwave 8.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter Synthwave 8.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/Gate5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\Gate5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/background/GateHori6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\background\\GateHori6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ammo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ammo.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/fd6cb88ee6dbd30692833857c220bbe9b163f6ff1eca1256061b3e4c8588a75a_Ammo.png",
+          "name": "Ammo.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/PedestalSpawner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\PedestalSpawner.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/pedestal/Pedestal9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\pedestal\\Pedestal9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/AmmoPickup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\AmmoPickup.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/ReplenishHP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\ReplenishHP.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/ReplenishStamina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\ReplenishStamina.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/ReplenishAmmo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\ReplenishAmmo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/Evasion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\Evasion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/GunDamage.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\GunDamage.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/MagazineCapacity.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\MagazineCapacity.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/MaxHP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\MaxHP.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/MaxStamina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\MaxStamina.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/MeleeDamage.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\MeleeDamage.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/MovementSpeed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\MovementSpeed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/Multishot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\Multishot.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/StaminaEfficiency.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\StaminaEfficiency.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/StaminaRecoverry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\StaminaRecoverry.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/upgrades/Vision.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\upgrades\\Vision.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/indicator/LightObstacle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\indicator\\LightObstacle.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4230,7 +4762,7 @@
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.1,
           "HasJustFired": false,
-          "FiringArc": 45,
+          "FiringArc": 30,
           "BulletQuantity": 1,
           "AngleVariance": 0,
           "RotateBullet": true,
@@ -4285,6 +4817,353 @@
                     "name": "centre",
                     "x": 11.5,
                     "y": 17.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Parry",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.01,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\parry\\parry11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2.5,
+                    "y": 17
                   },
                   "customCollisionMask": []
                 }
@@ -4539,14 +5418,7 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Spawned",
-          "type": "boolean",
-          "value": false
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -4596,7 +5468,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "radius": 100,
+        "radius": 60,
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
@@ -5124,12 +5996,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "NewSprite",
@@ -5200,13 +6067,18 @@
     },
     {
       "assetStoreId": "",
-      "name": "Parry",
+      "name": "LightObstacle",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5214,328 +6086,22 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.01,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry0.png",
+                  "image": "assets\\graphics\\indicator\\LightObstacle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 2.5,
-                    "y": 17
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\parry\\parry11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2.5,
-                    "y": 17
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2.5,
-                    "y": 17
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
@@ -5593,6 +6159,17 @@
           "type": "structure",
           "children": [
             {
+              "name": "NumOfEnemies",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "NumOfRoom",
+              "type": "number",
+              "value": 1
+            },
+            {
               "name": "Stage",
               "type": "number",
               "value": 1
@@ -5622,10 +6199,94 @@
               "value": 50
             }
           ]
+        },
+        {
+          "name": "Upgrades",
+          "type": "structure",
+          "children": [
+            {
+              "name": "AmmoPack",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BluePotion",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "GnomesBelt",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Gunpowder",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "LichsFinger",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "MunitionTalisman",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "OminousPellets",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "RavensFeather",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "RedPotion",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "SeveredHand",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "SeveredLeg",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "SinisterEyeballs",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "SuspiciousStew",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "UndyingHeart",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "WitchsRemedy",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ]
     },
     {
+      "folded": true,
       "name": "Settings",
       "type": "structure",
       "children": [
@@ -5638,6 +6299,56 @@
           "name": "SoundVolume",
           "type": "number",
           "value": 50
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "Track",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ItemRandom",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 3
+        },
+        {
+          "type": "number",
+          "value": 3
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 3
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 2
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 3
         }
       ]
     }
@@ -5658,10 +6369,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/intro-scene"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"

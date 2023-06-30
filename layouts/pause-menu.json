@@ -38,9 +38,6 @@
           "name": "BACK"
         },
         {
-          "name": "BACK"
-        },
-        {
           "name": "MAINMENU"
         },
         {
@@ -924,6 +921,24 @@
             "1000",
             "\"easeInOutQuad\""
           ]
+        },
+        {
+          "type": {
+            "value": "DeleteFichier"
+          },
+          "parameters": [
+            "\"VolumeSave\""
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"VolumeSave\"",
+            "\"VolumeSave\"",
+            "GlobalVarToJSON(Settings)"
+          ]
         }
       ]
     },
@@ -967,24 +982,6 @@
             "\"PlayerSave\"",
             "\"PlayerSave\"",
             "GlobalVarToJSON(PlayerInfo)"
-          ]
-        },
-        {
-          "type": {
-            "value": "DeleteFichier"
-          },
-          "parameters": [
-            "\"VolumeSave\""
-          ]
-        },
-        {
-          "type": {
-            "value": "EcrireFichierTxt"
-          },
-          "parameters": [
-            "\"VolumeSave\"",
-            "\"VolumeSave\"",
-            "GlobalVarToJSON(Settings)"
           ]
         },
         {
@@ -1092,6 +1089,10 @@
     {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Health",

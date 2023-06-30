@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.478934188453526,
+    "zoomFactor": 0.4194339782759073,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1086,6 +1086,303 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundCanalVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Track",
+            "=",
+            "RandomInRange(1,8)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 1.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 2.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 3.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 4.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 5.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 6.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 7.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 8.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "DepartScene"
           },
           "parameters": [
@@ -1222,36 +1519,6 @@
                 "CONTINUE",
                 "=",
                 "50"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SoundPlaying"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\xDeviruchi - Title Theme (Loop).wav",
-                "1",
-                "yes",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
               ]
             }
           ]
@@ -1428,17 +1695,6 @@
         },
         {
           "type": {
-            "value": "FadeSoundVolume"
-          },
-          "parameters": [
-            "",
-            "1",
-            "0",
-            "1.5"
-          ]
-        },
-        {
-          "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
           },
           "parameters": [
@@ -1466,7 +1722,7 @@
           },
           "parameters": [
             "",
-            "\"Game Scene\"",
+            "\"Intro Scene\"",
             ""
           ]
         }
@@ -1674,6 +1930,24 @@
             "1000",
             "\"easeInOutQuad\""
           ]
+        },
+        {
+          "type": {
+            "value": "DeleteFichier"
+          },
+          "parameters": [
+            "\"VolumeSave\""
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"VolumeSave\"",
+            "\"VolumeSave\"",
+            "GlobalVarToJSON(Settings)"
+          ]
         }
       ]
     },
@@ -1692,24 +1966,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "DeleteFichier"
-          },
-          "parameters": [
-            "\"VolumeSave\""
-          ]
-        },
-        {
-          "type": {
-            "value": "EcrireFichierTxt"
-          },
-          "parameters": [
-            "\"VolumeSave\"",
-            "\"VolumeSave\"",
-            "GlobalVarToJSON(Settings)"
-          ]
-        },
         {
           "type": {
             "value": "Quit"

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.814188120370992,
+    "zoomFactor": 0.6040838749988874,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1834,6 +1834,61 @@
             ""
           ]
         }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundCanalVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Track",
+            "=",
+            "RandomInRange(1,8)"
+          ]
+        }
       ],
       "events": [
         {
@@ -1841,31 +1896,12 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "VarGlobal"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SoundPlaying"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SoundCanalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "=",
-                    "0"
-                  ]
-                }
+              "parameters": [
+                "Track",
+                "=",
+                "1"
               ]
             }
           ],
@@ -1876,9 +1912,219 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\xDeviruchi - Decisive Battle (Loop).wav",
+                "assets\\audio\\music\\Shooter Synthwave 1.wav",
                 "1",
-                "yes",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 2.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 3.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 4.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 5.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 6.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 7.wav",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter Synthwave 8.wav",
+                "1",
+                "no",
                 "GlobalVariable(Settings.MusicVolume)",
                 ""
               ]
@@ -2176,6 +2422,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\dash.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -2365,6 +2623,67 @@
                 "0.5"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::IsOutOfAmmo"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\sound\\gun-empty.wav",
+                    "",
+                    "GlobalVariable(Settings.SoundVolume)",
+                    "RandomFloatInRange(1,1.5)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FireBullet::FireBullet::IsOutOfAmmo"
+                  },
+                  "parameters": [
+                    "Pistol",
+                    "FireBullet",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\sound\\shoot.wav",
+                    "",
+                    "GlobalVariable(Settings.SoundVolume)",
+                    "RandomFloatInRange(1,1.5)"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -2487,6 +2806,18 @@
               "parameters": [
                 "",
                 "\"ParryTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\parry.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
               ]
             }
           ]
@@ -3736,6 +4067,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\parry_hit.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
+              ]
             }
           ]
         },
@@ -3790,6 +4133,29 @@
                 "BossNormalAttack",
                 "Parried",
                 "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\parry_hit.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "StaminaBar",
+                "+",
+                "10",
+                ""
               ]
             }
           ],
@@ -3915,6 +4281,68 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\hurt.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BossTest",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "BossNormalAttack.Variable(Damage)",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\sound\\hurt.wav",
+                "",
+                "GlobalVariable(Settings.SoundVolume)",
+                "RandomFloatInRange(1,1.5)"
               ]
             }
           ]
@@ -4477,22 +4905,6 @@
   ],
   "layers": [
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 0,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": true,
-      "isLightingLayer": true,
-      "isLocked": false,
-      "name": "Lighting",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
@@ -4517,6 +4929,22 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {
