@@ -3474,6 +3474,1343 @@
         "name": "assets\\graphics\\indicator\\LightObstacle.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/pedestal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\pedestal.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gateClose.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gateClose.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gateOpen.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gateOpen.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/sound/pedestal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\pedestal.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostmove/ghostwalk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostmove\\ghostwalk8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack30.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack31.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack33.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack35.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostattack/ghostattack36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostattack\\ghostattack36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostdeath/ghostdeath30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostdeath\\ghostdeath30.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostspawn/ghostspawn19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostspawn\\ghostspawn19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/blood particle/bloodparticle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\blood particle\\bloodparticle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/blood particle/bloodparticle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\blood particle\\bloodparticle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/blood particle/bloodparticle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\blood particle\\bloodparticle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/blood particle/bloodparticle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\blood particle\\bloodparticle4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/blood particle/bloodparticle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\blood particle\\bloodparticle5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/walk/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\walk\\walk6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/attack/specialattack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\attack\\specialattack1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/attack/specialattack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\attack\\specialattack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/attack/specialattack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\attack\\specialattack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/attack/specialattack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\attack\\specialattack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/attack/specialattack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\attack\\specialattack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalkersprite/death/death9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalkersprite\\death\\death9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/W1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\W1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/W2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\W2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/W3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\W3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/A1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\A1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\A2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/A3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\A3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/S1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\S1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/S2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\S2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/S3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\S3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/D1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\D1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\D2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/D3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\D3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/SPACE1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\SPACE1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/SPACE2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\SPACE2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/SPACE3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\SPACE3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/TAB1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\TAB1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/TAB2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\TAB2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/TAB3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\TAB3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/LMB1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\LMB1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/LMB2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\LMB2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/LMB3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\LMB3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/RMB1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\RMB1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/RMB2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\RMB2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/RMB3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\RMB3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/portal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\portal.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4775,7 +6112,7 @@
           "TotalBulletsCreated": 0,
           "StartingAmmo": 2,
           "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": false,
+          "UnlimitedAmmo": true,
           "ReloadInProgress": false,
           "HeatIncreasePerShot": 0,
           "HeatLevel": 0,
@@ -5482,7 +6819,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
       "animations": [
         {
           "name": "Idle",
@@ -6110,6 +7452,801 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item0",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Red Potion : Replenish Health"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\ReplenishHP.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Blue Potion : Replenish Stamina"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\ReplenishStamina.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Ammo Pack : Replenish Ammo"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\ReplenishAmmo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Munition Talisman : Increase Ammo Gained From Parry"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\AmmoPickup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Raven's Feather : Increase Evasion"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\Evasion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item5",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Gunpowder : Increase Firearm Potency"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\GunDamage.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item6",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Gnome's Belt : Increase Magazine Capacity"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\MagazineCapacity.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item7",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Undying Heart : Increase Max Health"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\MaxHP.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item8",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Suspicious Stew : Increase Max Stamina"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\MaxStamina.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item9",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Severed Arm : Increase Melee Potency"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\MeleeDamage.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item10",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Severed Feet : Increase Movement Speed"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\MovementSpeed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item11",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Ominous Pellet : Increase Projectiles Per Shot"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\Multishot.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item12",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Witch's Remedy : Increase Stamina Efficiency"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\StaminaEfficiency.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item13",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Lich's Finger : Increase Stamina Recovery"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\StaminaRecoverry.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Item14",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Sinister Eyeballs : Increase Vision"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\upgrades\\Vision.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 23,
+                    "y": 21.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -6307,50 +8444,6 @@
       "name": "Track",
       "type": "number",
       "value": 0
-    },
-    {
-      "folded": true,
-      "name": "ItemRandom",
-      "type": "array",
-      "children": [
-        {
-          "type": "number",
-          "value": 3
-        },
-        {
-          "type": "number",
-          "value": 3
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 3
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 1
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 2
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 3
-        }
-      ]
     }
   ],
   "layouts": [
@@ -6377,6 +8470,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shakeobject"
