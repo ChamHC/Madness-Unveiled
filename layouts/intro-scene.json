@@ -9,7 +9,7 @@
   "title": "",
   "v": 0,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.5843784410740928,
+    "snap": true,
+    "zoomFactor": 0.4789341884535247,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,16 +30,28 @@
         {
           "folded": true,
           "type": "string",
-          "value": "Text 1"
+          "value": "As an archaeologist, you stumbled upon a hidden dungeon during your expedition, its very existence shrouded in secrecy and laden with unspeakable secrets."
         },
         {
           "folded": true,
           "type": "string",
-          "value": "Text 2"
+          "value": "Within the depths of this foreboding place, you unearth a mutated gun and an eerie knife, their enigmatic connection to the ancient unknown."
         },
         {
           "type": "string",
-          "value": "Text 3"
+          "value": "Reality warps within these confounding corridors, blurring the line between the familiar and the otherworldly."
+        },
+        {
+          "type": "string",
+          "value": "Whispers fill the stagnant air, clawing at your sanity as you navigate the treacherous labyrinth."
+        },
+        {
+          "type": "string",
+          "value": "Escape the encroaching madness, unveil the mysteries, and reclaim your freedom from the clutches of this sinister underworld."
+        },
+        {
+          "type": "string",
+          "value": "Your original archaeological expedition fades, overtaken by the primal instinct to survive and triumph in this harrowing domain."
         },
         {
           "folded": true,
@@ -64,8 +76,8 @@
       "layer": "",
       "name": "Intro",
       "persistentUuid": "78149506-b516-4f49-bdfd-44f4abef9382",
-      "width": 1280,
-      "x": 0,
+      "width": 1088,
+      "x": 96,
       "y": 360,
       "zOrder": 1,
       "numberProperties": [],
@@ -148,6 +160,42 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill1",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill2",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill3",
+            "+",
+            "TimeDelta()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -198,7 +246,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "4"
+            "6"
           ]
         },
         {
@@ -230,7 +278,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "4"
+            "2"
           ]
         },
         {
@@ -261,6 +309,303 @@
             "Intro",
             "=",
             "VariableString(IntroText[Variable(Increment)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundCanalVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Track",
+            "=",
+            "RandomInRange(1,8)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-1.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-2.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-3.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-4.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-5.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-6.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-7.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Track",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\music\\Shooter-Synthwave-8.aac",
+                "1",
+                "no",
+                "GlobalVariable(Settings.MusicVolume)",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -301,7 +646,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "4"
+            "6"
           ]
         },
         {
@@ -333,7 +678,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "4"
+            "2"
           ]
         },
         {
@@ -406,17 +751,6 @@
           },
           "parameters": [
             "ESC"
-          ]
-        },
-        {
-          "type": {
-            "value": "FadeSoundVolume"
-          },
-          "parameters": [
-            "",
-            "1",
-            "0",
-            "1.5"
           ]
         },
         {

@@ -4811,6 +4811,1649 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-4.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-5.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-5.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/music/Shooter-Synthwave-8.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\Shooter-Synthwave-8.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/dash.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\dash.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/shoot.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\shoot.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gun-empty.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gun-empty.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/parry.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\parry.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/pedestal.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\pedestal.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/parry_hit.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\parry_hit.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/hurt.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\hurt.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/portal.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\portal.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gateOpen.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gateOpen.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/gateClose.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\gateClose.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\42.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole30.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole31.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole33.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole39.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole40.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole41.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole43.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole44.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole46.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole47.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole49.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole51.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole53.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole54.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole55.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole56.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/blackhole/blackhole61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\blackhole\\blackhole61.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_run_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Assets Filter/FXpack13/FXpack13/Effect2/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Assets Filter\\FXpack13\\FXpack13\\Effect2\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Assets Filter/FXpack13/FXpack13/Effect3/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Assets Filter\\FXpack13\\FXpack13\\Effect3\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\30.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\31.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\39.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\41.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\45.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\46.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\47.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\49.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\51.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\55.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/projectiles/60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\projectiles\\60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/clone_attack_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\clone_attack_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skull.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/23a7ceba1f8f0f36044bb49de54086f869d64909743bf1d7eaf9a46ba9816292_Skull.png",
+          "name": "Skull.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Skull.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/Concrete 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\Concrete 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "../Assets Filter/Minifantasy_Dungeon_SFX/16_human_walk_stone_1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\Assets Filter\\Minifantasy_Dungeon_SFX\\16_human_walk_stone_1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "../Assets Filter/Free Footsteps Pack/Free Footsteps Pack/Concrete 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\Assets Filter\\Free Footsteps Pack\\Free Footsteps Pack\\Concrete 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/walk.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\walk.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "CosmicHorror_RumbleLoop1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CosmicHorror_RumbleLoop1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "SerpentBeast_Hiss.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SerpentBeast_Hiss.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/DoppelgangerHiss.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\DoppelgangerHiss.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "CosmicHorror_Rumble1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CosmicHorror_Rumble1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "CosmicHorror_Rumble2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CosmicHorror_Rumble2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/blackhole.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\blackhole.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4842,6 +6485,36 @@
         }
       ],
       "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
         {
           "name": "Health",
           "type": "Health::Health",
@@ -5519,6 +7192,1425 @@
                       {
                         "x": 11,
                         "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Doppelganger",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 5,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "acceleration": 9999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 5,
+          "cellWidth": 10,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 60,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_run_8.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "shoot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_8.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_9.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_10.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_attack_11.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\graphics\\sprites\\player\\clone_idle_1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 17.5,
+                      "y": 24
+                    },
+                    {
+                      "name": "Light",
+                      "x": 16,
+                      "y": 20
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 27.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 10
+                      },
+                      {
+                        "x": 22,
+                        "y": 30
+                      },
+                      {
+                        "x": 9,
+                        "y": 30
                       }
                     ]
                   ]
@@ -6637,8 +9729,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 50,
-        "InitialValue": 50
+        "MaxValue": 10,
+        "InitialValue": 2
       },
       "childrenContent": {
         "Background": {
@@ -6761,6 +9853,58 @@
         {
           "name": "InOnScreen",
           "type": "IsOnScreen::InOnScreen"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
         }
       ],
       "animations": [
@@ -7338,7 +10482,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -8247,11 +11398,53 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "3048158d05be4020fc2b39632e4133bc815c7ca1044e584cb40ba5a2993ca74f",
+      "name": "Skull",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\Skull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "PlayerInfo",
       "type": "structure",
       "children": [
@@ -8281,13 +11474,13 @@
               "folded": true,
               "name": "Current",
               "type": "number",
-              "value": 3
+              "value": 9999
             },
             {
               "folded": true,
               "name": "Max",
               "type": "number",
-              "value": 3
+              "value": 9999
             }
           ]
         },
@@ -8327,13 +11520,13 @@
               "folded": true,
               "name": "Current",
               "type": "number",
-              "value": 50
+              "value": 999
             },
             {
               "folded": true,
               "name": "Max",
               "type": "number",
-              "value": 50
+              "value": 999
             }
           ]
         },
@@ -8423,6 +11616,27 @@
       ]
     },
     {
+      "name": "SkillCD",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Skill1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Skill2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Skill3",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
       "folded": true,
       "name": "Settings",
       "type": "structure",
@@ -8449,11 +11663,11 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene"
+      "referenceTo": "/layouts/first-boss"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/first-boss-scene"
+      "referenceTo": "/layouts/game-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -8465,11 +11679,27 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/phase-3-outro-end-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/phase-2-outro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/phase-1-outro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/intro-scene"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"

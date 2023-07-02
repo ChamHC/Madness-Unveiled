@@ -2282,6 +2282,42 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill1",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill2",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SkillCD.Skill3",
+            "+",
+            "TimeDelta()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -2511,7 +2547,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 1.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-1.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2541,7 +2577,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 2.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-2.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2571,7 +2607,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 3.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-3.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2601,7 +2637,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 4.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-4.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2631,7 +2667,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 5.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-5.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2661,7 +2697,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 6.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-6.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2691,7 +2727,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 7.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-7.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2721,7 +2757,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\music\\Shooter Synthwave 8.wav",
+                "assets\\audio\\music\\Shooter-Synthwave-8.aac",
                 "1",
                 "no",
                 "GlobalVariable(Settings.MusicVolume)",
@@ -2913,6 +2949,17 @@
             "\"Forward\"",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeSoundVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "1.5"
           ]
         },
         {
