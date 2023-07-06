@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.448197804541039,
+    "zoomFactor": 0.6244537826600037,
     "windowMask": false
   },
   "objectsGroups": [
@@ -840,7 +840,7 @@
       "height": 32,
       "layer": "",
       "name": "CONTROLSMARKER",
-      "persistentUuid": "45f6c996-7d7d-4b65-87d9-834ac01bc97a",
+      "persistentUuid": "04c3143f-8011-42f0-97d0-fc902ac37e27",
       "width": 1280,
       "x": -1440,
       "y": 0,
@@ -855,7 +855,7 @@
       "height": 0,
       "layer": "",
       "name": "CONTROL",
-      "persistentUuid": "e9c1b3bf-e0b6-40b6-9655-509b2b9346aa",
+      "persistentUuid": "f08ca10e-e10f-4f71-8a56-a9fe64168cc2",
       "width": 0,
       "x": -1120,
       "y": 32,
@@ -870,7 +870,7 @@
       "height": 0,
       "layer": "",
       "name": "WKey",
-      "persistentUuid": "31285d7f-593e-459d-a325-e23bf0032d21",
+      "persistentUuid": "e5046c0b-5d42-4207-93bf-cc65f6ad3475",
       "width": 0,
       "x": -1280,
       "y": 192,
@@ -885,10 +885,10 @@
       "height": 0,
       "layer": "",
       "name": "AKey",
-      "persistentUuid": "7c315cca-1b8d-4ee6-9fae-8a7f7d33d9eb",
+      "persistentUuid": "67f65912-80c0-431e-b3bb-c33b8e9af1c5",
       "width": 0,
       "x": -1280,
-      "y": 288,
+      "y": 256,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -900,7 +900,22 @@
       "height": 0,
       "layer": "",
       "name": "SKey",
-      "persistentUuid": "7ea1aa47-3296-4d04-854a-1f7d2cd274c6",
+      "persistentUuid": "b9db7710-d546-47f5-8436-501bc585116e",
+      "width": 0,
+      "x": -1280,
+      "y": 320,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DKey",
+      "persistentUuid": "b48a36f8-cac2-4d83-b9e1-a72303594420",
       "width": 0,
       "x": -1280,
       "y": 384,
@@ -914,26 +929,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "DKey",
-      "persistentUuid": "b5734a84-5077-456e-839f-e6b27d543f35",
-      "width": 0,
-      "x": -1280,
-      "y": 480,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "SpaceKey",
-      "persistentUuid": "eee55ae7-d2cd-4023-a253-35f7ad6ed488",
+      "persistentUuid": "964eaa08-65e0-49dd-970e-6ac5ef8decd1",
       "width": 0,
       "x": -896,
-      "y": 480,
+      "y": 384,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -945,7 +945,7 @@
       "height": 0,
       "layer": "",
       "name": "TabKey",
-      "persistentUuid": "5007fc3f-7fad-466c-99c3-512ae758155a",
+      "persistentUuid": "652d4590-b8eb-4e0b-ba80-a5833f77469e",
       "width": 0,
       "x": -896,
       "y": 192,
@@ -960,10 +960,10 @@
       "height": 0,
       "layer": "",
       "name": "LMB",
-      "persistentUuid": "3897dd2e-af20-442f-bdb8-2551d43a6000",
+      "persistentUuid": "2a270435-6782-423e-8ae2-bde3dac21044",
       "width": 0,
       "x": -896,
-      "y": 288,
+      "y": 256,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -975,10 +975,10 @@
       "height": 0,
       "layer": "",
       "name": "RMB",
-      "persistentUuid": "72cc03c0-8a4c-4699-a537-90e5825bce26",
+      "persistentUuid": "962b75bf-113b-463b-85b2-34a098529150",
       "width": 0,
       "x": -896,
-      "y": 384,
+      "y": 320,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -991,7 +991,7 @@
       "height": 32,
       "layer": "",
       "name": "Text1",
-      "persistentUuid": "002ce9cc-89cd-4c56-8f0e-86ae80ab947c",
+      "persistentUuid": "14b74e28-4cc6-409c-b033-ca60504ac34a",
       "width": 416,
       "x": -1216,
       "y": 192,
@@ -1007,10 +1007,10 @@
       "height": 32,
       "layer": "",
       "name": "Text2",
-      "persistentUuid": "5ab82071-7199-4610-be8c-55ed277d90ab",
+      "persistentUuid": "55d78dda-0c57-487b-9c4e-5bf15ff6e277",
       "width": 255,
       "x": -1216,
-      "y": 288,
+      "y": 256,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1022,7 +1022,22 @@
       "height": 0,
       "layer": "",
       "name": "Text3",
-      "persistentUuid": "e9d86ffe-2d6b-436d-9b7d-b0469fef5684",
+      "persistentUuid": "34bd4c1f-949f-429f-b28f-2d49bc3b66dd",
+      "width": 0,
+      "x": -1216,
+      "y": 320,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Text4",
+      "persistentUuid": "521e3fa4-177c-4017-8034-2e505fe580ad",
       "width": 0,
       "x": -1216,
       "y": 384,
@@ -1036,25 +1051,10 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Text4",
-      "persistentUuid": "8f970137-d9cc-4bd4-8aaf-5bcb711f0397",
-      "width": 0,
-      "x": -1216,
-      "y": 480,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "Text5",
-      "persistentUuid": "e9684b61-1e7f-4bb3-968b-4e9f9538aab1",
+      "persistentUuid": "8a5eba7c-0963-4269-adb6-a498bb6a7827",
       "width": 0,
-      "x": -800,
+      "x": -832,
       "y": 192,
       "zOrder": 6,
       "numberProperties": [],
@@ -1067,10 +1067,10 @@
       "height": 0,
       "layer": "",
       "name": "Text6",
-      "persistentUuid": "6466f15e-0378-462f-b192-5b81a5b88999",
+      "persistentUuid": "4c449226-c61a-4043-8270-d488cc73ba67",
       "width": 0,
       "x": -800,
-      "y": 288,
+      "y": 256,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1082,10 +1082,10 @@
       "height": 0,
       "layer": "",
       "name": "Text7",
-      "persistentUuid": "b8722bee-0f9e-44b1-8b6a-80760e673660",
+      "persistentUuid": "9e88717c-a7b0-4eed-889a-502be6a711d5",
       "width": 0,
       "x": -800,
-      "y": 384,
+      "y": 320,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1097,10 +1097,10 @@
       "height": 0,
       "layer": "",
       "name": "Text8",
-      "persistentUuid": "97937bd6-6e25-4087-a230-241fa3ddd14c",
+      "persistentUuid": "b273726d-48d3-4229-b843-a2695d835977",
       "width": 0,
       "x": -704,
-      "y": 480,
+      "y": 384,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1111,10 +1111,115 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BACK2",
-      "persistentUuid": "9d1452cf-1fb9-4d86-94fb-999495fd7f4a",
+      "name": "EKey",
+      "persistentUuid": "63a97df0-75cb-4f5b-b902-089693e90ddf",
       "width": 0,
-      "x": -960,
+      "x": -1280,
+      "y": 448,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Text9",
+      "persistentUuid": "b5e5eebd-e3e6-4d55-a5f0-730e9dd65cf6",
+      "width": 0,
+      "x": -1216,
+      "y": 448,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "OneKey",
+      "persistentUuid": "1b2011f6-55a2-431d-aeb8-c1d5bd9dd059",
+      "width": 0,
+      "x": -896,
+      "y": 448,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TwoKey",
+      "persistentUuid": "3d43fa79-c6cd-49a9-9822-b9d1b72128f8",
+      "width": 0,
+      "x": -832,
+      "y": 448,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ThreeKey",
+      "persistentUuid": "490f2ada-78cf-4584-8d26-2eed769509dc",
+      "width": 0,
+      "x": -768,
+      "y": 448,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Text10",
+      "persistentUuid": "9df1ed98-d653-4583-b811-06d91ca7e6da",
+      "width": 0,
+      "x": -704,
+      "y": 448,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Text11",
+      "persistentUuid": "910e9434-6a33-4558-89b2-9ca16fbe5014",
+      "width": 0,
+      "x": -1112,
+      "y": 512,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BACK2",
+      "persistentUuid": "244046ef-2392-446e-a154-1ecb32d5d121",
+      "width": 0,
+      "x": -974,
       "y": 576,
       "zOrder": 63,
       "numberProperties": [],
@@ -1813,6 +1918,306 @@
     },
     {
       "assetStoreId": "",
+      "name": "EKey",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\E1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\E2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\E3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "OneKey",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\One1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\One2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\One3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TwoKey",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\two1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\two2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\two3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ThreeKey",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\three1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\three2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\keys\\three3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "SpaceKey",
       "tags": "",
       "type": "Sprite",
@@ -1906,7 +2311,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\keys\\TAB1.png",
+                  "image": "assets\\graphics\\sprites\\keys\\M1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1923,7 +2328,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\keys\\TAB2.png",
+                  "image": "assets\\graphics\\sprites\\keys\\M2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1940,7 +2345,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\graphics\\sprites\\keys\\TAB3.png",
+                  "image": "assets\\graphics\\sprites\\keys\\M3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2211,7 +2616,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Tab Key : Open Map",
+      "string": "M Key : Open Map",
       "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -2278,6 +2683,72 @@
       "effects": [],
       "behaviors": [],
       "string": "Spacebar : Dash",
+      "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Text9",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "E Key : Interact",
+      "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Text10",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1/2/3 Key : Cast Unlocked Skill",
+      "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Text11",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Tips : Parry Projectiles To Restock Ammo",
       "font": "assets\\fonts\\NicoPups-Monospaced.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -4419,6 +4890,14 @@
       "type": "Lighting::LightObstacleBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
     },
@@ -4429,6 +4908,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

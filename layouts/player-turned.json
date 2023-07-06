@@ -1,0 +1,971 @@
+{
+  "b": 140,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Player_32Turned",
+  "name": "Player Turned",
+  "r": 96,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 108,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.4789341884535246,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "CameraZoom",
+      "type": "number",
+      "value": 3.25
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "99f75c58-d7c1-4c27-8a44-47d372aa4881",
+      "width": 0,
+      "x": 608,
+      "y": 352,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Transition",
+      "persistentUuid": "94f71fe0-ee83-42d3-a57d-ae88ed751384",
+      "width": 0,
+      "x": 1312,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Room",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "isLight",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "4Way",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\Room4Way.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TopBottom2Way",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomTopBottom2Way.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LeftRight2Way",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomLeftRight2Way.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BottomDeadEnd",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomBottomDeadEnd.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TopDeadEnd",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomTopDeadEnd.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LeftDeadEnd",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomLeftDeadEnd.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RightDeadEnd",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomRightDeadEnd.png",
+                  "points": [
+                    {
+                      "name": "CheckV1",
+                      "x": 192,
+                      "y": 0
+                    },
+                    {
+                      "name": "CheckV2",
+                      "x": 192,
+                      "y": 225
+                    },
+                    {
+                      "name": "CheckH1",
+                      "x": 0,
+                      "y": 128
+                    },
+                    {
+                      "name": "CheckH2",
+                      "x": 385,
+                      "y": 128
+                    },
+                    {
+                      "name": "GateV1",
+                      "x": 192,
+                      "y": 50
+                    },
+                    {
+                      "name": "GateV2",
+                      "x": 192,
+                      "y": 238
+                    },
+                    {
+                      "name": "GateH1",
+                      "x": 8,
+                      "y": 144
+                    },
+                    {
+                      "name": "GateH2",
+                      "x": 375,
+                      "y": 144
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Boss",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\background\\RoomBoss.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 112
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SmoothCamera::SmoothCamera::SetFollowOnX"
+          },
+          "parameters": [
+            "Player",
+            "SmoothCamera",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
+          },
+          "parameters": [
+            "Player",
+            "SmoothCamera",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "Variable(CameraZoom)",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "Player",
+            "\"Hurt\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Player",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\human_flip.aac",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Player",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\human_flip.aac",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Player",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\human_flip.aac",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Player",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\human_flip.aac",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\pedestal.aac",
+            "2",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::SetLayerTranslationAmplitude"
+          },
+          "parameters": [
+            "",
+            "5",
+            "5",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            "2",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"evolve\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\audio\\sound\\Monster_Roar.aac",
+            "",
+            "GlobalVariable(Settings.SoundVolume)",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CameraZoom",
+            "=",
+            "2.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3.7"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "2",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Phase 3 Outro (End Scene)\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

@@ -21,7 +21,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Madness Unveiled",
-    "description": "",
+    "description": "In a forgotten dungeon, an archaeologist uncovers ancient secrets. As you explore, darkness takes hold, transforming you from an explorer to a warrior. Madness lurks, consuming your mind. Confront bosses, unearth artifacts, unleash forbidden powers. Survive the descent, escape Madness Unveiled.\n\nDue to browser restriction:\n1. Refresh the page before clicking \"Continue\" in Main Menu.\n2. Exit Game does not work.\n\n*This is a collaborative project developed as coursework*",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -29,7 +29,36 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "madness.png"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -50,10 +79,22 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
-    "categories": [],
-    "playableDevices": [],
+    "authorIds": [
+      "x8pp3Y7aLefdG6Dzj2Fag85ExKp1",
+      "MrWGH559aCXYMw9gkf0HQMxzu6I3"
+    ],
+    "authorUsernames": [
+      "ChamHC",
+      "atomazer"
+    ],
+    "categories": [
+      "rpg",
+      "horror",
+      "shooter"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -6454,6 +6495,3488 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/Frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\Frame.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/FrameBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\FrameBackground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/SkillCard2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\SkillCard2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/SkillCard1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/graphics/UI/SkillCard1.png\",\"extension\":\".png\"}",
+        "name": "assets\\graphics\\UI\\SkillCard1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/UI/SkillCard3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\UI\\SkillCard3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/E1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\E1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/E2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\E2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/E3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\E3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/One1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\One1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/One2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\One2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/One3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\One3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/two1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\two1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/two2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\two2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/two3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\two3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/three1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\three1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/three2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\three2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/three3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\three3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/ghostfacewalk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\ghostfacewalk8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/walk/walk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\walk\\walk8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/attack/attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\attack\\attack8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/spawn/spawn8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\spawn\\spawn8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/ghostface/projectile/bloodprojectile8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\ghostface\\projectile\\bloodprojectile8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/ghost_attack.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\ghost_attack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/ghost_hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\ghost_hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/ghost_attack.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\ghost_attack.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/ghost_hurt.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\ghost_hurt.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/walk/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\walk\\walk6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/attack/attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\attack\\attack8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/teethman/spawn/spawn8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\teethman\\spawn\\spawn8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Walk_0.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"DungeonMaster_Walk_0.png\",\"extension\":\".png\"}",
+        "name": "DungeonMaster_Walk_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Walk_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"DungeonMaster_Walk_1.png\",\"extension\":\".png\"}",
+        "name": "DungeonMaster_Walk_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Walk_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"DungeonMaster_Walk_2.png\",\"extension\":\".png\"}",
+        "name": "DungeonMaster_Walk_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Walk_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"DungeonMaster_Walk_3.png\",\"extension\":\".png\"}",
+        "name": "DungeonMaster_Walk_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Death_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Death_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Attack_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Attack_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMaster_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMaster_Attack_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Walk_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Walk_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Walk_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Walk_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Attack_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Attack_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Attack_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Death_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Death_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Spawn_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Spawn_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Projectile_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Projectile_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Projectile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Projectile_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Projectile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Projectile_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SingularitySorcerer/DungeonMaster_Projectile_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SingularitySorcerer\\DungeonMaster_Projectile_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Walk_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Walk_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Walk_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Walk_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Death_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Death_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Death_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Death_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Death_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Attack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Attack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/SlimeKing_Spawn_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\SlimeKing_Spawn_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/DemonSlime/Nautolan Spinning Bullet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\DemonSlime\\Nautolan Spinning Bullet_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/walk/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\walk\\walk6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/attack/specialattack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\attack\\specialattack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/attack/specialattack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\attack\\specialattack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/attack/specialattack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\attack\\specialattack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/attack/specialattack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\attack\\specialattack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/attack/specialattack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\attack\\specialattack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/death/death9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\death\\death9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/toothwalker/spawn/walk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\toothwalker\\spawn\\walk8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/move/move8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\move\\move8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/attack/attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\attack\\attack8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/spawn/spawn8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\spawn\\spawn8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/shadowcaster/proj/projectile8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\shadowcaster\\proj\\projectile8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeledeath/SkeletonKing_Death_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeledeath\\SkeletonKing_Death_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeledeath/SkeletonKing_Death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeledeath\\SkeletonKing_Death_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeledeath/SkeletonKing_Death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeledeath\\SkeletonKing_Death_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeledeath/SkeletonKing_Death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeledeath\\SkeletonKing_Death_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test1.png\",\"extension\":\".png\"}",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test2.png\",\"extension\":\".png\"}",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test3.png\",\"extension\":\".png\"}",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test4.png\",\"extension\":\".png\"}",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelewalk/SkeletonKing_Walk_0_test8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelewalk\\SkeletonKing_Walk_0_test8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack1/SkeletonKing_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack1\\SkeletonKing_Attack_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobsdeath/SkeletonKing_Ostacle_Death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobsdeath\\SkeletonKing_Ostacle_Death_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobsdeath/SkeletonKing_Ostacle_Death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobsdeath\\SkeletonKing_Ostacle_Death_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobsdeath/SkeletonKing_Ostacle_Death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobsdeath\\SkeletonKing_Ostacle_Death_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobsdeath/SkeletonKing_Ostacle_Death_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobsdeath\\SkeletonKing_Ostacle_Death_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleattack2/SkeletonKing_Attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleattack2\\SkeletonKing_Attack8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skelespawn/SkeletonKing_Spawn_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skelespawn\\SkeletonKing_Spawn_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeledeath/SkeletonKing_Death_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeledeath\\SkeletonKing_Death_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobst/SkeletonKing_Obstacle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobst\\SkeletonKing_Obstacle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobst/SkeletonKing_Obstacle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobst\\SkeletonKing_Obstacle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobst/SkeletonKing_Obstacle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobst\\SkeletonKing_Obstacle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/skeleobst/SkeletonKing_Obstacle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\skeleobst\\SkeletonKing_Obstacle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/projectile/Skull 0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\projectile\\Skull 0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/projectile/Skull 0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\projectile\\Skull 0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/projectile/Skull 0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\projectile\\Skull 0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/SkeletonKing/projectile/Skull 0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\SkeletonKing\\projectile\\Skull 0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/SkeletonKing_playerspawn14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/evolve_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\evolve_walk1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/evolve_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\evolve_walk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/evolve_walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\evolve_walk3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/player/evolve/evolve_walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\player\\evolve\\evolve_walk4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/walk/wallofmeatwalking8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\walk\\wallofmeatwalking8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/attack-run/wallofmeatrunning8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\attack-run\\wallofmeatrunning8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/collide/collide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\collide\\collide.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/death/wallofmeatdeath9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\death\\wallofmeatdeath9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/wallofmeat/spawn/wallofmeat8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\wallofmeat\\spawn\\wallofmeat8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/move/eyemove8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\move\\eyemove8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/attack/attackeye8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\attack\\attackeye8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\death\\death8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/spawn/spawneye1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\spawn\\spawneye1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/projectile/eye1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\projectile\\eye1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/projectile/eye2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\projectile\\eye2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/projectile/eye3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\projectile\\eye3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/enemies/eye/projectile/eye4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\enemies\\eye\\projectile\\eye4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/Monster_Roar.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\Monster_Roar.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/Monster_Roar.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\Monster_Roar.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sound/human_flip.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\sound\\human_flip.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/music/outro.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\music\\outro.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/M1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\M1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/M2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\M2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/graphics/sprites/keys/M3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\graphics\\sprites\\keys\\M3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "madness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "madness.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6609,6 +10132,10 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -7199,6 +10726,256 @@
               ]
             }
           ]
+        },
+        {
+          "name": "evolve",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\sprites\\player\\evolve\\SkeletonKing_playerspawn14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 286
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 163,
+                    "y": 182
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7242,6 +11019,8 @@
           "BulletSpeedVariance": 0
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -7252,10 +11031,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 60,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         },
         {
           "name": "ShakeObject_PositionAngle",
@@ -9204,7 +12981,7 @@
           "TotalBulletsCreated": 0,
           "StartingAmmo": 2,
           "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": true,
+          "UnlimitedAmmo": false,
           "ReloadInProgress": false,
           "HeatIncreasePerShot": 0,
           "HeatLevel": 0,
@@ -9942,7 +13719,116 @@
     },
     {
       "assetStoreId": "",
+      "name": "EnemiesSpawner2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "EnemiesSpawner",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\EnemiesSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemiesSpawner3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "EnemiesSpawner",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\indicator\\EnemiesSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "FlashLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 60,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PortalLight",
       "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
@@ -10484,10 +14370,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -11439,12 +15325,150 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Skill1Card",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "assets\\graphics\\UI\\SkillCard1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\SkillCard1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 228
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Skill2Card",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\SkillCard2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 228
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Skill3Card",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\graphics\\UI\\SkillCard3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 160,
+                    "y": 228
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "PlayerInfo",
       "type": "structure",
       "children": [
@@ -11456,13 +15480,13 @@
               "folded": true,
               "name": "Current",
               "type": "number",
-              "value": 2
+              "value": 3
             },
             {
               "folded": true,
               "name": "Max",
               "type": "number",
-              "value": 2
+              "value": 3
             }
           ]
         },
@@ -11474,13 +15498,13 @@
               "folded": true,
               "name": "Current",
               "type": "number",
-              "value": 9999
+              "value": 5
             },
             {
               "folded": true,
               "name": "Max",
               "type": "number",
-              "value": 9999
+              "value": 5
             }
           ]
         },
@@ -11488,6 +15512,11 @@
           "name": "Progression",
           "type": "structure",
           "children": [
+            {
+              "name": "EnemiesToSpawn",
+              "type": "string",
+              "value": "1,1,2"
+            },
             {
               "name": "NumOfEnemies",
               "type": "number",
@@ -11520,13 +15549,13 @@
               "folded": true,
               "name": "Current",
               "type": "number",
-              "value": 999
+              "value": 50
             },
             {
               "folded": true,
               "name": "Max",
               "type": "number",
-              "value": 999
+              "value": 50
             }
           ]
         },
@@ -11663,6 +15692,14 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/second-boss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/third-boss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/first-boss"
     },
     {
@@ -11679,6 +15716,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fake-phase-3-outro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/phase-3-outro-end-scene"
     },
     {
@@ -11691,7 +15732,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/end-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/intro-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/player-turned"
     }
   ],
   "externalEvents": [],

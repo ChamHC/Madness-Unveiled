@@ -825,6 +825,14 @@
       "type": "Lighting::LightObstacleBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
     },

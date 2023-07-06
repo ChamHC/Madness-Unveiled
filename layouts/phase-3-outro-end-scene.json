@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4194339782759061,
+    "zoomFactor": 0.4335774304702376,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -314,254 +314,15 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
-            "Track",
-            "=",
-            "RandomInRange(1,8)"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-1.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-2.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-3.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-4.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-5.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-6.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-7.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Track",
-                "=",
-                "8"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\music\\Shooter-Synthwave-8.aac",
-                "1",
-                "no",
-                "GlobalVariable(Settings.MusicVolume)",
-                ""
-              ]
-            }
+            "",
+            "assets\\audio\\music\\outro.aac",
+            "1",
+            "no",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
           ]
         }
       ]
@@ -711,6 +472,17 @@
         },
         {
           "type": {
+            "value": "FadeSoundVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "2"
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -723,7 +495,7 @@
           },
           "parameters": [
             "",
-            "\"Game Scene\"",
+            "\"Main Menu\"",
             ""
           ]
         }
@@ -779,6 +551,14 @@
     {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "ShakeObject_PositionAngle",
